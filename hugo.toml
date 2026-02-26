@@ -1,8 +1,7 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https:nothofagusdombeyis.com"
 languageCode = "es"
 title = "Nothofagus Dombeyis"
 theme = "PaperMod"
-
 # PaperMod / RSS expects this in many configs
 [params]
   author = "Ricardo Vivanco"
