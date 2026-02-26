@@ -1,0 +1,16 @@
+{{- $lic := .Params.license | default "copyright" -}}
+<hr>
+<div class="post-meta" style="margin-top: 1rem;">
+  {{- if eq $lic "cc-by-4.0" -}}
+    <p>
+      <strong>Licencia:</strong> Creative Commons Attribution 4.0 (CC BY 4.0).
+      Puedes reutilizar este texto con atribución (autor, fuente y licencia) e indicando cambios.
+    </p>
+  {{- else -}}
+    <p>
+      <strong>Derechos:</strong> © {{ now.Year }} {{ .Site.Params.author | default "Autor" }}.
+      Todos los derechos reservados. No se permite la reproducción total sin permiso.
+      Citas breves con atribución: autor, fuente y enlace al original. Para usos más amplios, contáctame.
+    </p>
+  {{- end -}}
+</div>

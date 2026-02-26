@@ -1,0 +1,24 @@
+baseURL = "http://localhost:1313/"
+languageCode = "es"
+title = "Nothofagus Dombeyis"
+theme = "PaperMod"
+
+# PaperMod / RSS expects this in many configs
+[params]
+  author = "Ricardo Vivanco"
+  MainSections = ["escritura","tecnico","sobre-mi","post","posts","poemas"]
+[menu]
+  [[menu.main]]
+    name = "Escritura"
+    url = "/escritura/"
+    weight = 10
+  [[menu.main]]
+    name = "Técnico"
+    url = "/tecnico/"
+    weight = 20
+  [[menu.main]]
+    name = "Poemas"
+    url = "/poemas/"
+    weight = 20
+
+
