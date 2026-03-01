@@ -31,7 +31,7 @@ Para cerrar, lo que amé del libro es la calidez con que podía imaginar los des
 
 Me hubiera gustado oír que canción hubieran escrito los Creedence sobre esta lucha por vivir sin mendigar, por mantener la dignidad ante todo, lo mas cercano sería la canción “Who'll Stop the Rain” que a pesar que fue escrita varias décadas posteriores a estos sucesos y en un contexto diferente, para hechos diferentes, diría que puede aplicar en cualquier escenario donde se quiera y cualquiera de nosotros siga adelante buscando el sol, esperando y preguntándonos (así termina el libro) quien detendrá la lluvia?
 
-[![Imagen](https://img.youtube.com/vi/ID_DEL_VIDEO/0.jpg)](https://youtu.be/yGc6qKflSWk)
+{{< youtube 3yGc6qKflSWk >}}
 
 > Opinión: 
 De alguna forma, esperaba al menos tener un desenlace, al menos tener una amargura, pero John Steinbeck de alguna forma dejó el final para sí mismo. Todos los que leímos las uvas de la ira, en el fondo de nuestro ser, desviamos la mirada a como terminaría la historia, en cierta forma John nos hizo un favor
