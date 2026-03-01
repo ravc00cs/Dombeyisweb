@@ -6,3 +6,5 @@ params:
   license: "copyright"
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
+
+hola
