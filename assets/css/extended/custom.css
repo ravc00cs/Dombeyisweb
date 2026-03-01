@@ -1,0 +1,38 @@
+:root {
+  --theme: #0f1115;
+  --entry: #161a20;
+
+  --primary: #e6e6e6;
+  --secondary: #9ca3af;
+  --content: #e6e6e6;
+
+  --border: #232830;
+  --tertiary: #232830;
+
+  --code-bg: #1d222a;
+}
+
+/* firma visual */
+a { color: #7c9cff; }
+a:hover { color: #9db6ff; }
+
+/* “PaperMod pero tuyo”: cards más suaves */
+.post-entry {
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: 0 6px 28px rgba(0,0,0,.22);
+}
+
+
+.site-cover{
+  height: 220px;                 /* estilo Notion */
+  background-image: url("/images/background.JPG");
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid var(--border);
+}
+
+/* para que el header no quede “pegado” al banner */
+.header{
+  margin-top: 0;
+}

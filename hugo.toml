@@ -1,23 +1,42 @@
-baseURL = "https:nothofagusdombeyis.com"
+baseURL = "http:localhost:1313"
 languageCode = "es"
 title = "Nothofagus Dombeyis"
 theme = "PaperMod"
+defaultTheme = "dark"
+disableThemeToggle = true
+
 # PaperMod / RSS expects this in many configs
 [params]
+  disableSpecial1stPost = true
   author = "Ricardo Vivanco"
-  MainSections = ["escritura","tecnico","sobre-mi","post","posts","poemas"]
+  MainSections = ["SobrePensar","Guías","sobre-mi","post","posts","Poemas"]
+
+[params.assets]
+  disableHLJS = true
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+
 [menu]
   [[menu.main]]
-    name = "Escritura"
-    url = "/escritura/"
+    name = "SobrePensar"
+    url = "/SobrePensar/"
     weight = 10
   [[menu.main]]
-    name = "Técnico"
-    url = "/tecnico/"
+    name = "Guías"
+    url = "/Guias/"
     weight = 20
   [[menu.main]]
     name = "Poemas"
     url = "/poemas/"
+    weight = 20
+  [[menu.main]]
+    name = "Sobre mi"
+    url = "/Sobre-mi/"
     weight = 20
 
 

@@ -41,7 +41,9 @@
     {{- else }}
     {{ .Content }}
     {{ end }}
-    {{ partial "license-block.html" . }}
+    {{- if not (.Param "disableLicense") -}}
+      {{ partial "license-block.html" . }}
+    {{- end -}}
   </div>
   {{- end }}
 
