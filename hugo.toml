@@ -10,9 +10,12 @@ disableThemeToggle = true
   disableSpecial1stPost = true
   author = "Ricardo Vivanco"
   MainSections = ["SobrePensar","Guías","sobre-mi","post","posts","Poemas"]
-
-[params.assets]
   disableHLJS = true
+  
+[params.assets]
+  favicon = "favicon.ico"
+  favicon16x16 = "favicon-16x16.png"
+  favicon32x32 = "favicon-32x32.png"
 
 [markup]
   [markup.highlight]
