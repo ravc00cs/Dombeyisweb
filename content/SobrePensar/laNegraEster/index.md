@@ -1,7 +1,8 @@
 +++
-title = 'LaNegraEster'
+title = 'La Negra Ester'
 date = 2026-03-07T12:14:51-03:00
 draft = false
+summary= "Teatro / Opinión:  Impresiones de la obra completa"
 +++
 
 ![alt text](image.png "Imagen - La Negra Ester , Gran Circo Teatro")

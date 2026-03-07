@@ -2,6 +2,7 @@
 title = 'Las uvas de la ira'
 date = 2026-03-01T16:25:16-03:00
 draft = false
+summary= "Libro / Opinión:  Impresiones del libro de John Steinbeck"
 +++
 
 >Good men through the ages tryin' to find the sun

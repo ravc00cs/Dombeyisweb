@@ -2,6 +2,8 @@
 title = 'Primitivo'
 date = 2026-03-07T10:48:34-03:00
 draft = false
+summary= "Intento de ensayo 1:  Ideas con las que se queda uno despues dever TV"
+
 +++
 
 Hace poco me encontré pensando y dando vueltas a una idea viendo Atlas de Chile, cuándo visitaron San Pedro de Atacama, en el capitulo visitaron unas petroglifos en una pared y en el programa Federico, al ver los dibujos, contó la idea de que lo que veíamos en el lugar era algo a mirar con detenimiento, era algo tan humano como nosotros (los actuales) algo que nosotros podemos hacer y los antiguos también, y es plasmar tu universo, tu comprensión de los hechos de tu cultura, de tu vida en un dibujo en una pared.

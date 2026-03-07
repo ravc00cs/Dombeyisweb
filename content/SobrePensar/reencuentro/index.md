@@ -2,6 +2,8 @@
 title = 'Reencuentro'
 date = 2026-03-07T12:39:06-03:00
 draft = false
+summary= "Ejercicio reflexivo:  Cuándo un hobby te mira de vuelta"
+
 +++
 
 *¿Qué ocurre cuando ves un viejo hábito y este te mira de frente?* 

@@ -11,7 +11,13 @@ disableThemeToggle = true
   author = "Ricardo Vivanco"
   MainSections = ["SobrePensar","Guías","sobre-mi","post","posts","Poemas"]
   disableHLJS = true
-  
+  ShowTags = true
+  ShowShareButtons = true
+  cover = "static/background.png"
+  ShowPostCover = true
+  ShowPostCoverInList = true
+  ShowPostCoverInSingle = true
+
 [params.assets]
   favicon = "favicon.ico"
   favicon16x16 = "favicon-16x16.png"
