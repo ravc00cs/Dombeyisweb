@@ -33,3 +33,5 @@ Esta película cuando la termine de ver la investigue un poco, tratando de enten
 También encontré varios comentarios de que la misma película es propaganda, y en cierto modo lo es (mueca de yyyyyyyyyyyyyyyyyyyyy siiiiii lo es) debido a como presentan el escenario y el extremismo y estoy de acuerdo con esa postura, y para mi entender, es mas fácil y digerible esa historia para el público que fue creada, que otra historia un poco mas inverosímil. Pero si había mas formas de crear esta historia y me recuerda a la película John Q  en la cual un padre (Denzel Washington) en un conflicto de no poder pagar por la operación de su hijo secuestra al sistema, forzándolo a negociar con sus demandas, esta versión por si misma, podría ejecutarse en otras escalas para presentar este dilema, de una manera en el que el problema era en sí el sistema.
 
 Para cerrar, no la vería de nuevo netamente porque la actuación de Michael Sheen (que lo conocí primero por otras series) realmente te deja con una sensación nauseabunda de lo que vive, siendo incluso el “enemigo” de la película.
+
+Ricardo V.

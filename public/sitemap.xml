@@ -2,14 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/sobrepensar/lookback/</loc>
+    <lastmod>2026-03-07T12:44:50-03:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/sobrepensar/</loc>
-    <lastmod>2026-03-07T11:51:27-03:00</lastmod>
+    <lastmod>2026-03-07T12:44:50-03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2026-03-07T11:51:27-03:00</lastmod>
+    <lastmod>2026-03-07T12:44:50-03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/sobrepensar/reencuentro/</loc>
+    <lastmod>2026-03-07T12:39:06-03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/sobrepensar/alotroladodelcharco/</loc>
+    <lastmod>2026-03-07T12:31:59-03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/sobrepensar/lanegraester/</loc>
+    <lastmod>2026-03-07T12:14:51-03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/sobrepensar/transgresion/</loc>
     <lastmod>2026-03-07T11:51:27-03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/sobrepensar/primitivo/</loc>
+    <lastmod>2026-03-07T10:48:34-03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/sobrepensar/morir-en-la-arena/</loc>
     <lastmod>2026-03-01T18:55:35-03:00</lastmod>
