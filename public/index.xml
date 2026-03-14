@@ -2,89 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Titulo on Nothofagus Dombeyis</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Titulo on Nothofagus Dombeyis</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>es</language>
     <lastBuildDate>Sat, 07 Mar 2026 12:44:50 -0300</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lookback</title>
-      <link>//localhost:1313/sobrepensar/lookback/</link>
+      <link>http://localhost:1313/sobrepensar/lookback/</link>
       <pubDate>Sat, 07 Mar 2026 12:44:50 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/lookback/</guid>
-      <description>Opinión Película LookBack de Kiyotaka Oshiyama,</description>
+      <guid>http://localhost:1313/sobrepensar/lookback/</guid>
+      <description>Opinión Película LookBack de Kiyotaka Oshiyama</description>
     </item>
     <item>
       <title>Reencuentro</title>
-      <link>//localhost:1313/sobrepensar/reencuentro/</link>
+      <link>http://localhost:1313/sobrepensar/reencuentro/</link>
       <pubDate>Sat, 07 Mar 2026 12:39:06 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/reencuentro/</guid>
-      <description>&lt;p&gt;&lt;em&gt;¿Qué ocurre cuando ves un viejo hábito y este te mira de frente?&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Para mi el relato de alguien que ya no existe o que no volvio,  o alguien que debe volver a subirse a la bicicleta y sentir el movimiento.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Veo esta pintura y ahora puedo notar sus fallas, donde me concentre en pintar, donde no,  donde perdí las perspectivas de las partes y donde no.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Errores anatómicos: una clavícula fuera de lugar, hombros tanto mas grandes que la cadera, diferentes puntos de fuga desde el ombligo hacia arriba y hacia abajo.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/reencuentro/</guid>
+      <description>Ejercicio reflexivo:  Cuándo un hobby te mira de vuelta</description>
     </item>
     <item>
-      <title>AlOtroLadoDelCharco</title>
-      <link>//localhost:1313/sobrepensar/alotroladodelcharco/</link>
+      <title>Lorca - Al otro lado del charco</title>
+      <link>http://localhost:1313/sobrepensar/alotroladodelcharco/</link>
       <pubDate>Sat, 07 Mar 2026 12:31:59 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/alotroladodelcharco/</guid>
-      <description>&lt;p&gt;Cometeré un pecado: daré mi opinión sin investigar antes, esto se debe a que generalmente me quedo siempre con las primeras impresiones, y estas en mi caso son fuertes, si hubiera leído, aunque sea un poema sobre Lorca, estaría imponiendo mi visión sobre lo que Teatro Puerto quiso entregar en este primer acercamiento.&lt;/p&gt;
-&lt;p&gt;Me invitaron a la presentación del primer capítulo de la obra &lt;strong&gt;Lorca, al otro lado del charco&lt;/strong&gt; y dado que, al igual que hice con La negra Ester, aproveche la oportunidad de involucrarme mas con el Teatro participe de buena gana en esta primera presentación, del primer capítulo “Buenos Aires / Las mujeres de Lorca”&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/alotroladodelcharco/</guid>
+      <description>Teatro / OPinión:  Impresiones primer capitulo de obra</description>
     </item>
     <item>
-      <title>LaNegraEster</title>
-      <link>//localhost:1313/sobrepensar/lanegraester/</link>
+      <title>La Negra Ester</title>
+      <link>http://localhost:1313/sobrepensar/lanegraester/</link>
       <pubDate>Sat, 07 Mar 2026 12:14:51 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/lanegraester/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;//localhost:1313/sobrepensar/lanegraester/image.png&#34; title=&#34;Imagen - La Negra Ester , Gran Circo Teatro&#34;&gt;&lt;/p&gt;
-&lt;p&gt;No tengo la costumbre de ir al teatro. No suelo buscar algo que ver por mi cuenta; más bien las oportunidades aparecen y a veces las tomo. Esta vez la idea fue de mi esposa.
-Mi primera noción de esta obra fue un video de la actriz Ximena Rivas (para mi la Poncia) cantando una de las tantas canciones que aparecen en la obra, la más reconocida la del zapatero, viendo ese fragmento me cuestioné su origen, solo por un segundo, siendo una conversación de cama con mi esposa de algún día ver esta obra.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/lanegraester/</guid>
+      <description>Teatro / Opinión:  Impresiones de la obra completa</description>
     </item>
     <item>
       <title>Transgresion</title>
-      <link>//localhost:1313/sobrepensar/transgresion/</link>
+      <link>http://localhost:1313/sobrepensar/transgresion/</link>
       <pubDate>Sat, 07 Mar 2026 11:51:27 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/transgresion/</guid>
-      <description>&lt;h3 id=&#34;transgresión&#34;&gt;Transgresión&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;//localhost:1313/sobrepensar/transgresion/image.png&#34; title=&#34;Imagen extraida de IMDB &#34;&gt;&lt;/p&gt;
-&lt;p&gt;Hay pocas películas que puedo decir que son desagradables de ver. No porque lo que muestran esté fuera de la raya, sino porque nos obligan a cambiar la palabra “moral” por “sistema”, y hasta cierto punto eso tiene sentido.
-Comenzaría con preguntas del estilo: ¿Hasta dónde podemos defender nuestro sistema? Y por sistema, me refiero a lo que sea que nos construye un relato en el cual sentamos nuestra identidad y con eso darle sentido a nuestra realidad y con ello otra pregunta, ¿el sistema en el que nacimos debería evitar que lo defendamos? o mas bien por que hasta donde pueden tirar los hilos del sistema la concepción de lo que creemos que somos como personas.
-Pero lo llevaré a una pregunta más simple, ¿por qué aceptamos de buena o mala manera que el sistema genere lo impensable? Para mí la respuesta es: cuándo lo malo es llevadero sólo si le ocurre a otros.
-La película Unthinkable me recuerda a libros como Cobra de Frederick Forsyth. Llegaré a ese punto más adelante.
-Unthinkable nos sienta en un escenario donde todo puede salir mal: la amenaza de una bomba. Relato un tanto comercial o de película cartelera con escenas siniestras, pero estas escenas son mucho mas cruentas de ver que el cine de terror, y se debe justamente a que nos presenta la tortura sin tapujos, nos deja ver escenas de tortura militar, tácticas de obtención de información, procedimientos establecidos y una jerarquía de procesos para destruir a una persona que intenta atentar contra el sistema.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/transgresion/</guid>
+      <description>Película / Opinión:  Impresiones y post shock de la pélicula EL día del juicio final</description>
     </item>
     <item>
       <title>Primitivo</title>
-      <link>//localhost:1313/sobrepensar/primitivo/</link>
+      <link>http://localhost:1313/sobrepensar/primitivo/</link>
       <pubDate>Sat, 07 Mar 2026 10:48:34 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/primitivo/</guid>
-      <description>&lt;p&gt;Hace poco me encontré pensando y dando vueltas a una idea viendo Atlas de Chile, cuándo visitaron San Pedro de Atacama, en el capitulo visitaron unas petroglifos en una pared y en el programa Federico, al ver los dibujos, contó la idea de que lo que veíamos en el lugar era algo a mirar con detenimiento, era algo tan humano como nosotros (los actuales) algo que nosotros podemos hacer y los antiguos también, y es plasmar tu universo, tu comprensión de los hechos de tu cultura, de tu vida en un dibujo en una pared.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/primitivo/</guid>
+      <description>Intento de ensayo 1:  Ideas con las que se queda uno despues dever TV</description>
     </item>
     <item>
       <title>Morir en La Arena</title>
-      <link>//localhost:1313/sobrepensar/morir-en-la-arena/</link>
+      <link>http://localhost:1313/sobrepensar/morir-en-la-arena/</link>
       <pubDate>Sun, 01 Mar 2026 18:55:35 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/morir-en-la-arena/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;Después de leer Morir en la Arena de Leonardo Padura (mi primer libro del autor) pude poner otra arista o capa a una sensación que poseen las cosas lentas, que se puede apreciar en todo lo que habita la estanqueidad, generalmente lo más destructivo es el paso del tiempo, pero sobre todo el tiempo sobre cosas que no tienen la culpa de ser como son.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/morir-en-la-arena/</guid>
+      <description>Libro / Opinión:  Impresiones del libro de Leonardo Padura</description>
     </item>
     <item>
       <title>Las uvas de la ira</title>
-      <link>//localhost:1313/sobrepensar/lasuvasdelaira/</link>
+      <link>http://localhost:1313/sobrepensar/lasuvasdelaira/</link>
       <pubDate>Sun, 01 Mar 2026 16:25:16 -0300</pubDate>
-      <guid>//localhost:1313/sobrepensar/lasuvasdelaira/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Good men through the ages tryin&amp;rsquo; to find the sun
-And I wonder, still I wonder, who&amp;rsquo;ll stop the rain?&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Creedence clearwater revival&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;opinión-y-reflexión&#34;&gt;Opinión y reflexión&lt;/h3&gt;
-&lt;p&gt;&lt;img alt=&#34;alt text&#34; loading=&#34;lazy&#34; src=&#34;//localhost:1313/sobrepensar/lasuvasdelaira/p1.png&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Iniciaré con el final. John Steinbeck, en el libro, tuvo la particularidad de ir contándonos la historia de la familia Joad, mediante los acontecimientos cotidianos y vivencias de la familia, y además capítulos que describían una situación en específico, una breve historia para ponernos en contexto con la realidad de la historia, relatos descriptivos o escenas cotidianas de otras personas para sentarnos donde John quería que estuviésemos mirando, y John, en el penúltimo capítulo del libro, nos cuenta una breve historia de los acontecimientos que ocurrieron en ese invierno que tanto se avecinaba en el libro, acontecimientos que pasaron en la realidad real y del libro, pero descritos de manera superficial para darnos una idea general de donde nos situaríamos en el siguiente capítulo y luego en el capítulo final, el lector se dará cuenta que el libro finaliza en la primera parte de la historia del capítulo anterior, cerrará el libro con la incertidumbre del ¿qué pasó con ellos?, ¿qué ocurrió con el resto de la historia?, pero luego de dejar asentar el agua turbia y que los sedimentos terminen de asentarse en el fondo, comprenderemos que el final, pudo haber terminado mucho antes en el libro, pero la idea de cortarlo en ese punto, nos deja con el único razonamiento de querer reflexionar; de hecho, de alguna forma sabemos como iba a terminar, podemos ser realistas, tener fe o convertir el temor en ira. Al cerrar el libro, quedé con la sensación de que los cisnes negros existen, nadie está a salvo y solo faltan unas tantas combinaciones de realidades, para que cualquiera se convierta en un migrante, para que cualquiera de nosotros sea un extranjero en su propio país, para que cualquiera de nosotros quede a merced de la compasión de los demás.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/sobrepensar/lasuvasdelaira/</guid>
+      <description>Libro / Opinión:  Impresiones del libro de John Steinbeck</description>
     </item>
   </channel>
 </rss>

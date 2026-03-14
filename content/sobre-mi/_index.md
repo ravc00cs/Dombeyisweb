@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Sobre mi"
 
 ---
 
@@ -7,4 +7,4 @@ Ojalá diseñador general, por ahora diseñador de circuitos impresos, curioso d
 
 Vivo en Chile y me rodean mi esposa, mis gatos, libros y tecnología.
 
-[¡About me!]([www.github.com](https://about.me/ravc_c))
+[¡About me!](https://about.me/ravc_c)

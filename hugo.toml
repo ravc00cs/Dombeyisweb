@@ -1,4 +1,4 @@
-baseURL = "http:localhost:1313"
+baseURL = "http://localhost:1313"
 languageCode = "es"
 title = "Nothofagus Dombeyis"
 theme = "PaperMod"
@@ -13,7 +13,7 @@ disableThemeToggle = true
   disableHLJS = true
   ShowTags = true
   ShowShareButtons = true
-  cover = "static/background.png"
+  cover = "images/background.JPG"
   ShowPostCover = true
   ShowPostCoverInList = true
   ShowPostCoverInSingle = true
@@ -24,6 +24,8 @@ disableThemeToggle = true
   favicon32x32 = "favicon-32x32.png"
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
@@ -35,16 +37,16 @@ disableThemeToggle = true
     name = "SobrePensar"
     url = "/SobrePensar/"
     weight = 10
-  [[menu.main]]
-    name = "Guías"
-    url = "/Guias/"
-    weight = 20
+#  [[menu.main]]
+#    name = "Guías"
+#    url = "/Guias/"
+#    weight = 20
   [[menu.main]]
     name = "Poemas"
     url = "/poemas/"
     weight = 20
   [[menu.main]]
     name = "Sobre mi"
-    url = "/Sobre-mi/"
+    url = "/sobre-mi/"
     weight = 20
 
