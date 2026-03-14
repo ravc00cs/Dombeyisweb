@@ -2,19 +2,71 @@
   --theme: #0f1115;
   --entry: #161a20;
 
-  --primary: #e6e6e6;
-  --secondary: #9ca3af;
-  --content: #e6e6e6;
+  /* texto ligeramente cálido, menos duro que blanco puro */
+  --primary: #d4d0c8;
+  --secondary: #8a9099;
+  --content: #ccc9c0;
 
   --border: #232830;
   --tertiary: #232830;
 
   --code-bg: #1d222a;
+
+  /* tipografía cómoda para lectura nocturna */
+  --main-width: 680px;
+}
+
+/* tipografía para lectura nocturna */
+body {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+}
+
+.post-content p {
+  margin-bottom: 1.5em;
+}
+
+h1, h2, h3, h4 {
+  color: #e2ddd5;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 /* firma visual */
 a { color: #7c9cff; }
 a:hover { color: #9db6ff; }
+
+/* blockquotes destacados */
+.post-content blockquote {
+  border-left: 3px solid #7c9cff;
+  margin: 1.5em 0;
+  padding: 0.6em 1.2em;
+  color: var(--secondary);
+  font-style: italic;
+  background: rgba(124, 156, 255, 0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+/* imágenes suavizadas */
+.post-content img {
+  border-radius: 10px;
+  opacity: 0.92;
+}
+
+/* código inline menos agresivo */
+.post-content code {
+  font-size: 0.88em;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--code-bg);
+  color: #a8c0ff;
+}
 
 /* “PaperMod pero tuyo”: cards más suaves */
 .post-entry {
