@@ -1,0 +1,14 @@
+<div class="w-100 mb4 nested-copy-line-height relative bg-forest-card">
+  <div class="mb3 pa4 overflow-hidden bg-forest-card">
+    {{with .CurrentSection.Title }}<span class="f6 db">{{ . }}</span>{{end}}
+    <h1 class="f3 near-white mt0 lh-title">
+      <a href="{{ .RelPermalink }}" class="link near-white dim">
+        {{ .Title }}
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height near-white">
+      {{ .Summary }}
+    </div>
+    <a href="{{.RelPermalink}}" class="ba br2 color-inherit dib f7 link mt2 ph2 pv1 bg-forest-card">{{ $.Param "read_more_copy" | compare.Default (lang.Translate "readMore") }}</a>
+  </div>
+</div>

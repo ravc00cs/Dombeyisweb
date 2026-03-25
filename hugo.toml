@@ -1,23 +1,19 @@
 baseURL = "https://nothofagusdombeyis.com"
 languageCode = "es"
 title = "Nothofagus Dombeyis"
-theme = "PaperMod"
-defaultTheme = "dark"
-disableThemeToggle = true
+theme = "ananke"
 
 # PaperMod / RSS expects this in many configs
 [params]
-  disableSpecial1stPost = true
+  featured_image = "/images/background.JPG"
+  background_color_class = "bg-forest-dark"
+  custom_css = ["css/forest.css"]
+  body_classes = "georgia bg-near-black"
+  text_color = "near-white"
+  post_content_classes = "serif"
+  cover_dimming_class = "bg-black-30"
   author = "Ricardo Vivanco"
   MainSections = ["SobrePensar","Guías","sobre-mi","post","posts","Poemas"]
-  disableHLJS = true
-  ShowTags = true
-  ShowShareButtons = true
-  cover = "images/background.JPG"
-  ShowPostCover = true
-  ShowPostCoverInList = true
-  ShowPostCoverInSingle = true
-
 [params.assets]
   favicon = "favicon.ico"
   favicon16x16 = "favicon-16x16.png"

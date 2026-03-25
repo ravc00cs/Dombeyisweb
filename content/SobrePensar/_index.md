@@ -1,5 +1,6 @@
 ---
 title: "Sobre Pensar"
+featured_image: "/images/sobrepensar-banner.JPG"
 cascade:
   params:
     license: "cc-by-4.0"

@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sobre Pensar on Nothofagus Dombeyis</title>
-    <link>https://nothofagusdombeyis.com/sobrepensar/</link>
+    <link>http://localhost:1313/sobrepensar/</link>
     <description>Recent content in Sobre Pensar on Nothofagus Dombeyis</description>
-    <generator>Hugo -- 0.156.0</generator>
+    <generator>Hugo</generator>
     <language>es</language>
     <lastBuildDate>Sat, 07 Mar 2026 12:44:50 -0300</lastBuildDate>
-    <atom:link href="https://nothofagusdombeyis.com/sobrepensar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/sobrepensar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lookback</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/lookback/</link>
+      <link>http://localhost:1313/sobrepensar/lookback/</link>
       <pubDate>Sat, 07 Mar 2026 12:44:50 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/lookback/</guid>
+      <guid>http://localhost:1313/sobrepensar/lookback/</guid>
       <description>Opinión Película LookBack de Kiyotaka Oshiyama</description>
     </item>
     <item>
       <title>Reencuentro</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/reencuentro/</link>
+      <link>http://localhost:1313/sobrepensar/reencuentro/</link>
       <pubDate>Sat, 07 Mar 2026 12:39:06 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/reencuentro/</guid>
+      <guid>http://localhost:1313/sobrepensar/reencuentro/</guid>
       <description>Ejercicio reflexivo:  Cuándo un hobby te mira de vuelta</description>
     </item>
     <item>
       <title>Lorca - Al otro lado del charco</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/alotroladodelcharco/</link>
+      <link>http://localhost:1313/sobrepensar/alotroladodelcharco/</link>
       <pubDate>Sat, 07 Mar 2026 12:31:59 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/alotroladodelcharco/</guid>
+      <guid>http://localhost:1313/sobrepensar/alotroladodelcharco/</guid>
       <description>Teatro / OPinión:  Impresiones primer capitulo de obra</description>
     </item>
     <item>
       <title>La Negra Ester</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/lanegraester/</link>
+      <link>http://localhost:1313/sobrepensar/lanegraester/</link>
       <pubDate>Sat, 07 Mar 2026 12:14:51 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/lanegraester/</guid>
+      <guid>http://localhost:1313/sobrepensar/lanegraester/</guid>
       <description>Teatro / Opinión:  Impresiones de la obra completa</description>
     </item>
     <item>
       <title>Transgresion</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/transgresion/</link>
+      <link>http://localhost:1313/sobrepensar/transgresion/</link>
       <pubDate>Sat, 07 Mar 2026 11:51:27 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/transgresion/</guid>
+      <guid>http://localhost:1313/sobrepensar/transgresion/</guid>
       <description>Película / Opinión:  Impresiones y post shock de la pélicula EL día del juicio final</description>
     </item>
     <item>
       <title>Primitivo</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/primitivo/</link>
+      <link>http://localhost:1313/sobrepensar/primitivo/</link>
       <pubDate>Sat, 07 Mar 2026 10:48:34 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/primitivo/</guid>
+      <guid>http://localhost:1313/sobrepensar/primitivo/</guid>
       <description>Intento de ensayo 1:  Ideas con las que se queda uno despues dever TV</description>
     </item>
     <item>
       <title>Morir en La Arena</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/morir-en-la-arena/</link>
+      <link>http://localhost:1313/sobrepensar/morir-en-la-arena/</link>
       <pubDate>Sun, 01 Mar 2026 18:55:35 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/morir-en-la-arena/</guid>
+      <guid>http://localhost:1313/sobrepensar/morir-en-la-arena/</guid>
       <description>Libro / Opinión:  Impresiones del libro de Leonardo Padura</description>
     </item>
     <item>
       <title>Las uvas de la ira</title>
-      <link>https://nothofagusdombeyis.com/sobrepensar/lasuvasdelaira/</link>
+      <link>http://localhost:1313/sobrepensar/lasuvasdelaira/</link>
       <pubDate>Sun, 01 Mar 2026 16:25:16 -0300</pubDate>
-      <guid>https://nothofagusdombeyis.com/sobrepensar/lasuvasdelaira/</guid>
+      <guid>http://localhost:1313/sobrepensar/lasuvasdelaira/</guid>
       <description>Libro / Opinión:  Impresiones del libro de John Steinbeck</description>
     </item>
   </channel>

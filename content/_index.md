@@ -1,6 +1,7 @@
 ---
-title: "Titulo"
-description: "Descripción de la web"
+title: "SobrePensar"
+description: "Ejercicio práctico de opinión, poemas, pensamientos y escritos a nivel general, de manera cruda (de tanto darle vuelta a una idea), un vómito para desocupar mi mente."
+featured_image: "/images/background.JPG"
 ---
 *Ejercicio práctico de opinión, poemas, pensamientos y escritos a nivel general, de manera cruda (de tanto darle vuelta a una idea), un vómito para desocupar mi mente.* 
 

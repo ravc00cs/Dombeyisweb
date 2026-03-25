@@ -1,0 +1,54 @@
+/* Dark forest theme overrides */
+
+/* Darker green for nav/footer/banners — deeper than Tachyons bg-dark-green */
+.bg-forest-dark {
+  background-color: #0a3d26;
+}
+
+/* Card background — dark green-tinted, slightly lighter than body */
+.bg-forest-card {
+  background-color: #102a1e;
+}
+
+/* Card title links */
+.bg-forest-card h1 a,
+.bg-forest-card .near-black,
+.bg-forest-card .black {
+  color: #d4e8dc;
+}
+
+.bg-forest-card h1 a:hover {
+  color: #ffffff;
+}
+
+/* Section label above card title */
+.bg-forest-card span.f6 {
+  color: #7aab8a;
+}
+
+/* Read more button */
+.bg-forest-card a.ba {
+  background-color: #1e4a33;
+  border-color: #4a9e6e;
+  color: #c8e0d0;
+}
+
+.bg-forest-card a.ba:hover {
+  background-color: #2d6b4a;
+  color: #ffffff;
+}
+
+/* Post header: section label, title, date, author */
+.post-header-forest aside,
+.post-header-forest h1,
+.post-header-forest p,
+.post-header-forest time,
+.post-header-forest span {
+  color: #d4e8dc;
+}
+
+/* Summary text color */
+.bg-forest-card .gray,
+.bg-forest-card .mid-gray {
+  color: #a8c4b0;
+}
