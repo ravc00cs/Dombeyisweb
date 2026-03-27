@@ -15,9 +15,9 @@ theme = "ananke"
   author = "Ricardo Vivanco"
   MainSections = ["SobrePensar","Guías","sobre-mi","post","posts","Poemas"]
 [params.assets]
-  favicon = "favicon.ico"
-  favicon16x16 = "favicon-16x16.png"
-  favicon32x32 = "favicon-32x32.png"
+  favicon = "images/favicon.ico"
+  favicon16x16 = "images/favicon-16x16.png"
+  favicon32x32 = "images/favicon-32x32.png"
 
 [markup]
   [markup.goldmark.renderer]
