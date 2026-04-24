@@ -12,12 +12,14 @@
 
 /* Card title links */
 .bg-forest-card h1 a,
+.bg-forest-card h2 a,
 .bg-forest-card .near-black,
 .bg-forest-card .black {
   color: #d4e8dc;
 }
 
-.bg-forest-card h1 a:hover {
+.bg-forest-card h1 a:hover,
+.bg-forest-card h2 a:hover {
   color: #ffffff;
 }
 
@@ -51,4 +53,91 @@
 .bg-forest-card .gray,
 .bg-forest-card .mid-gray {
   color: #a8c4b0;
+}
+
+/* Cards grid — gap uniforme, centrado */
+.cards-grid {
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Poem grid */
+.poem-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 30em) {
+  .poem-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media screen and (min-width: 60em) {
+  .poem-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* Chapter divider — spans full grid width */
+.chapter-divider {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.chapter-divider::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid #2d6b4a;
+}
+
+/* Poem cards — altura fija uniforme */
+.poem-card {
+  height: 160px;
+  border: 1px solid #1e4a33;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.poem-card:hover {
+  border-color: #4a9e6e;
+  transform: translateY(-2px);
+}
+
+.poem-card-inner {
+  background: rgba(16, 42, 30, 0.82);
+}
+
+.poem-chapter {
+  color: #7aab8a;
+  letter-spacing: 0.06em;
+}
+
+.poem-read-link {
+  background-color: #1e4a33;
+  border-color: #4a9e6e;
+  color: #c8e0d0;
+}
+
+.poem-read-link:hover {
+  background-color: #2d6b4a;
+  color: #ffffff;
+}
+
+/* License / copyright block — subtle metadata below post content */
+.license-block {
+  margin-top: 6rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #1e4a33;
+}
+
+.license-block p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: #5e8a70;
+  letter-spacing: 0.02em;
 }

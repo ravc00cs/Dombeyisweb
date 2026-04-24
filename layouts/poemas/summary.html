@@ -1,0 +1,19 @@
+{{ $img := "" }}
+{{ with .Resources.ByType "image" }}
+  {{ $img = (index . 0).RelPermalink }}
+{{ end }}
+
+<article class="poem-card bg-forest-card br2 overflow-hidden"
+  {{- if $img }} style="background-image: url('{{ $img }}'); background-size: cover; background-position: center;"{{- end -}}>
+  <div class="poem-card-inner pa4 flex flex-column h-100">
+    <h2 class="f4 fw4 near-white mt0 mb0 lh-title flex-auto">
+      <a href="{{ .RelPermalink }}" class="link dim" style="color:#d4e8dc">{{ .Title }}</a>
+    </h2>
+    {{- with .Description -}}
+    <p class="f6 poem-chapter mt2 mb0">{{ . }}</p>
+    {{- end -}}
+    <div class="mt3">
+      <a href="{{ .RelPermalink }}" class="ba poem-read-link f7 br2 pv1 ph2 dib">Leer</a>
+    </div>
+  </div>
+</article>

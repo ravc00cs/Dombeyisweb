@@ -3,9 +3,14 @@
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "near-white" }}">
       {{- .Content -}}
     </section>
-    <section class="flex-ns mt5 flex-wrap justify-around">
+    <section class="flex-ns mt5 flex-wrap cards-grid">
+      {{ range .Sections }}
+        <div class="w-100 w-30-l relative bg-forest-card">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
       {{ range .Paginator.Pages }}
-        <div class="w-100 w-30-l mb4 relative bg-forest-card">
+        <div class="w-100 w-30-l relative bg-forest-card">
           {{ .Render "summary" }}
         </div>
       {{ end }}

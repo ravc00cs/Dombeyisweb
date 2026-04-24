@@ -2,7 +2,10 @@
 title = 'Lorca - Al otro lado del charco'
 date = 2026-03-07T12:31:59-03:00
 draft = false
-summary= "Teatro / OPinión:  Impresiones primer capitulo de obra"
+summary= "Teatro / Opinión:  Impresiones primer capitulo de obra"
+[params]
+  license = "cc-by-4.0"
+  rights = "© 2026 Ricardo Vivanco C. CC BY 4.0"
 +++
 
 Cometeré un pecado: daré mi opinión sin investigar antes, esto se debe a que generalmente me quedo siempre con las primeras impresiones, y estas en mi caso son fuertes, si hubiera leído, aunque sea un poema sobre Lorca, estaría imponiendo mi visión sobre lo que Teatro Puerto quiso entregar en este primer acercamiento.

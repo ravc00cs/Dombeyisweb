@@ -1,9 +1,12 @@
 +++
-title = 'Transgresion'
+title = 'Transgresión'
 date = 2026-03-07T11:51:27-03:00
 draft = false
 summary= "Película / Opinión:  Impresiones y post shock de la pélicula EL día del juicio final"
  
+[params]
+  license = "cc-by-4.0"
+  rights = "© 2026 Ricardo Vivanco C. CC BY 4.0"
 +++
 ### Transgresión
 

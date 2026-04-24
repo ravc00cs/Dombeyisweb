@@ -4,8 +4,10 @@ date = 2026-03-01T18:55:35-03:00
 draft = false
 summary= "Libro / Opinión:  Impresiones del libro de Leonardo Padura"
 
+[params]
+  license = "cc-by-4.0"
+  rights = "© 2026 Ricardo Vivanco C. CC BY 4.0"
 +++
-<style>body {text-align: right}</style>
 Después de leer Morir en la Arena de Leonardo Padura (mi primer libro del autor) pude poner otra arista o capa a una sensación que poseen las cosas lentas, que se puede apreciar en todo lo que habita la estanqueidad, generalmente lo más destructivo es el paso del tiempo, pero sobre todo el tiempo sobre cosas que no tienen la culpa de ser como son.
 
 ![alt text](p2.png)

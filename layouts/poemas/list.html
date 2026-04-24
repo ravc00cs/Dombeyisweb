@@ -1,0 +1,26 @@
+{{ define "main" }}
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
+    {{ if .Sections }}
+      <section class="poem-grid ph3 ph4-l mt4">
+        {{ range .Sections }}
+          {{ .Render "summary" }}
+        {{ end }}
+      </section>
+    {{ else }}
+      {{ $prevChapter := "" }}
+      <section class="poem-grid ph3 ph4-l mt4">
+        {{ range .Pages }}
+          {{ $chapter := .Params.chapter | default "" }}
+          {{ if and $chapter (ne $chapter $prevChapter) }}
+            <div class="chapter-divider near-white">{{ $chapter }}</div>
+            {{ $prevChapter = $chapter }}
+          {{ end }}
+          {{ .Render "summary" }}
+        {{ end }}
+      </section>
+    {{ end }}
+  </article>
+{{ end }}

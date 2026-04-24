@@ -4,6 +4,9 @@ date = 2026-03-07T12:44:50-03:00
 image = "cover.png"
 draft = false
 summary= "Opinión Película LookBack de Kiyotaka Oshiyama "
+[params]
+  license = "cc-by-4.0"
+  rights = "© 2026 Ricardo Vivanco C. CC BY 4.0"
 +++
 
 ![name](image.png#center)
