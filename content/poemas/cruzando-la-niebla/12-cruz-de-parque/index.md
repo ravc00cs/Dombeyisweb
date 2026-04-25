@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Cruz de parque](P1040513.JPG "Panasonic Lumix DMC-LX7")
+
 Arrodillado en un banco de madera  
 cuando la misa lo pide hacer  
 por mi culpa por mi culpa

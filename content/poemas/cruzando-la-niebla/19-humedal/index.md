@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Humedal](humedal.jpg)
+
 hay un olor que me sigue, no se de donde viene.  
 Un aroma de hábitos olvidados que emanan cuando estoy lo mas quieto posible.
 

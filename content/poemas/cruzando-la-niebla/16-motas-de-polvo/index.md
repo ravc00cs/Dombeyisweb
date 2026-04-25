@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Motas de polvo](motas.jpg)
+
 Flotando con miedo, motas de polvo viajan a la deriva en el aire  
 curiosas son cuándo atraviesan un rayo de luz en una pieza oscura  
 podemos verlas brillar todas juntas habitando ese espacio, delicadas a merced del viento  

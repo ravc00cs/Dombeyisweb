@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Colibrí](P1040709.JPG "Panasonic Lumix DMC-LX7")
+
 Sentado a la sombra de un cobertizo un año en el que todo cambio,  
 Vi un colibrí visitar un árbol con flores frente a mi, mientras pensaba que tanto podría cambiar el mundo  
 para mi y ella

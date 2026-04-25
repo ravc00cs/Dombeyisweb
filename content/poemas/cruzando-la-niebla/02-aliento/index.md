@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Aliento](P1050021.JPG "Panasonic Lumix DMC-LX7")
+
 A una cierta hora, existe el mismo aroma en una habitación  
 Una mezcla de sueño y cansancio  
 una intimidad cotidiana entre tu y yo.  

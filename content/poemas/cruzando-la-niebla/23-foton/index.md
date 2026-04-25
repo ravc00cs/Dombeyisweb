@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Fotón](P1040856.JPG "Panasonic Lumix DMC-LX7")
+
 En la unidad mínima del tiempo que existe en una mirada furtiva, en el tiempo que una tela deja entrever o en un reflejo mal ubicado
 
 Puedo decir que compartimos cuerpos con solo estar cerca

@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Azul marino](P1050143.JPG "Panasonic Lumix DMC-LX7")
+
 El ruido existe entre medio de la madrugada y la tarde noche,  
 en el opuesto de un intermedio
 

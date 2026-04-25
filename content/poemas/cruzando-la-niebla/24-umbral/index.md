@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Umbral](umbral.jpg)
+
 Acá, ante mi.  
 veo el final del día por lo que es y quiero que se quede permanente
 

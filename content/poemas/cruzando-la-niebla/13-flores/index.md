@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Flores](flores.jpg)
+
 Habito un bosque de flores y arboles donde  
 entre piedras y espinas conocí una rama que creció con hojas podadas.  
 La veo desde el árbol al que me recuesto y cobijo.  

@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Al Sol](P1050202.JPG "Panasonic Lumix DMC-LX7")
+
 Me gusta caminar, para que mi mente divague  
 generalmente no pienso nada, estoy absorto en el frio o el calor,  
 donde en el paso aparecen pensamientos,  

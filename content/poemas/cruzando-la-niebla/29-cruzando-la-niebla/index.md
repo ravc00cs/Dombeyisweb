@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Cruzando la niebla](P1050283.JPG "Panasonic Lumix DMC-LX7")
+
 Son gotas frías que por millones se depositan sobre mi, casi tiernamente
 
 avanzando sin un viento como si fueran un aliento pasando, un suspiro  

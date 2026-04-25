@@ -10,7 +10,7 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
-![Amarillos](gatos.jpg)
+![Amarillos](gatos.jpg "FED 5 — analógica 35mm")
 
 En tensión me veo reflejado en una mirada que no es mía  
 en frente de mi, un espejo pequeño y peludo
