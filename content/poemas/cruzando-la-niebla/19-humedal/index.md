@@ -12,7 +12,7 @@ params:
 
 ![Humedal](humedal.jpg)
 
-hay un olor que me sigue, no se de donde viene.  
+Hay un olor que me sigue, no se de donde viene.  
 Un aroma de hábitos olvidados que emanan cuando estoy lo mas quieto posible.
 
 El olor de la vida o de la estanqueidad  
