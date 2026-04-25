@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Amarillos](gatos.jpg)
+
 En tensión me veo reflejado en una mirada que no es mía  
 en frente de mi, un espejo pequeño y peludo
 indicándome que existo para esos ojos  

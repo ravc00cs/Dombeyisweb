@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![La casa](Captura%20desde%202026-04-25%2009-13-21.png)
+
 Algún día volveré a esa casa que aún no existe  
 una casa pequeña al borde de un cerro donde el viento no cesa y el atardecer es permanente.  
 En esa casa sólo vive mi voz, mis recuerdos y mis pasos  

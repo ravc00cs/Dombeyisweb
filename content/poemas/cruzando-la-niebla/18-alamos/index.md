@@ -13,7 +13,7 @@ params:
 ![Álamos](alamos.jpg "FED 5 — analógica 35mm")
 
 En la distancia suficiente, entre el límite y yo, a través de un llano que invita a parar, veo el mismo viento que siento en mi piel mecer unos álamos  
-Imagino estar al lado de ellos en una sombra fría pero en paz  
+imagino estar al lado de ellos en una sombra fría pero en paz  
 imagino el ruido a sus pies del viento que los mueve, y puedo sentir el silencio de su sonido sin estar allí  
 siento e imagino esa sombra que conozco de otros lugares, sombra que en sus pies descansa, un camino polvoriento con piedras sueltas  
 un camino polvoriento, con polvo que no se levanta con el viento, más bien cae y mantiene el silencio  

@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Fantasmas 2](P1050093.JPG "Panasonic Lumix DMC-LX7")
+
 No creo en fantasmas, pero pienso en ellos, pienso que existen de otras formas, formas como la luz.  
 Luz que rebota y viaja de miles de millones de kilómetros lejos de la tierra, luz que existe en toda la existencia, como la sombra de una sombra.  
 Una luz que rebota y viaja desde cada uno de nosotros al infinito, desde el sol y las estrellas al universo, una luz tenue imperceptible, que viaja eternamente a ese espacio.  

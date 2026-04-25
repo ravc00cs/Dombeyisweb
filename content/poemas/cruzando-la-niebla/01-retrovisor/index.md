@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Retrovisor](P1050218.JPG "Panasonic Lumix DMC-LX7")
+
 A veces veo detrás de mí,  
 me veo como un espejo y en un reflejo me convierto en espectador  
 para verte sin ser visto, mientras estamos juntos haciendo nada  

@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Norte](photo_2025-10-19_19-21-14.jpg)
+
 Si no tuviera un camino que seguir  
 al menos tengo un árbol un pino fuera de la casa de mis padres  
 afuera siempre estuvo, desde que tengo memoria, marcando el mismo punto, un pino en la ventana a mi derecha.  

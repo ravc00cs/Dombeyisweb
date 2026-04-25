@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Peso](Sin%20nombre.png)
+
 Pienso las cosas que podría decirte  
 pensando mis palabras, preguntándome cuánto podrían pesar,  
 descubriendo que estas pesan tanto que solo el mundo puede sostenerlas.  

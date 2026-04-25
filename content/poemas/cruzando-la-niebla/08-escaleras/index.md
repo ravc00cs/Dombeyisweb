@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Escaleras](photo_2025-10-12_15-00-52.jpg)
+
 ¿Cuándo todo se hace chico y viejo?  
 ¿Cuándo es que uno despierta por un pequeño momento? solo para tener un breve lapso de humildad y entender que todo ha cambiado  
 ¿Cuándo comienza y termina mi viejo y nuevo yo?  

@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Cosas que se mueven](P1050165.JPG "Panasonic Lumix DMC-LX7")
+
 Las paredes solo hablan de cosas lentas,  
 si las paredes hablaran sólo hablarían del día y la noche,  
 del tiempo, de las grietas y la erosión.

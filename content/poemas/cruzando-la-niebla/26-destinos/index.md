@@ -10,6 +10,8 @@ params:
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
 ---
 
+![Destinos](P1050123.JPG "Panasonic Lumix DMC-LX7")
+
 Doy un paso y me abro al futuro  
 Paso dos y pienso en que será la última vez la próxima vez  
 Un paso mas y quizás solo sean diez pasos mas que los vea.
