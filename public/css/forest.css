@@ -108,7 +108,19 @@
 }
 
 .poem-card-inner {
-  background: rgba(16, 42, 30, 0.82);
+  background: linear-gradient(180deg,
+    rgba(8, 18, 12, 0.82) 0%,
+    rgba(8, 18, 12, 0.30) 42%,
+    rgba(8, 18, 12, 0.30) 58%,
+    rgba(8, 18, 12, 0.88) 100%);
+}
+
+.poem-card h2 a {
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.poem-card .poem-chapter {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 .poem-chapter {
@@ -141,3 +153,1045 @@
   color: #5e8a70;
   letter-spacing: 0.02em;
 }
+
+/* ===================================================== */
+/* Wallpaper de escritorio — aplicado a TODA la web      */
+/* ===================================================== */
+
+/* body.bg-near-black gana en especificidad a la clase de Tachyons */
+body.bg-near-black {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0c1612;
+  background-image:
+    radial-gradient(ellipse 720px 220px at 18% 22%, rgba(122,171,138,0.07), transparent 70%),
+    radial-gradient(ellipse 900px 260px at 82% 68%, rgba(122,171,138,0.055), transparent 72%),
+    radial-gradient(ellipse 560px 180px at 50% 92%, rgba(122,171,138,0.04), transparent 70%),
+    repeating-linear-gradient(0deg, rgba(212,232,220,0.018) 0 1px, transparent 1px 4px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.05) 0 1px, transparent 1px 3px);
+  background-attachment: fixed;
+}
+
+/* Wallpapers por volumen — se aplican sumando .vol-* al body */
+body.vol-niebla {
+  background-image:
+    radial-gradient(ellipse 720px 220px at 18% 22%, rgba(122,171,138,0.10), transparent 70%),
+    radial-gradient(ellipse 900px 260px at 82% 68%, rgba(122,171,138,0.08), transparent 72%),
+    repeating-linear-gradient(0deg, rgba(212,232,220,0.022) 0 1px, transparent 1px 4px);
+}
+
+body.vol-hojas {
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(122,171,138,0.16) 0 2px, transparent 3px),
+    radial-gradient(circle at 38% 30%, rgba(74,158,110,0.12) 0 2.5px, transparent 4px),
+    radial-gradient(circle at 72% 22%, rgba(122,171,138,0.14) 0 2px, transparent 3px),
+    radial-gradient(circle at 88% 55%, rgba(74,158,110,0.10) 0 2px, transparent 3px),
+    radial-gradient(circle at 24% 72%, rgba(122,171,138,0.13) 0 1.8px, transparent 3px),
+    radial-gradient(circle at 60% 84%, rgba(74,158,110,0.10) 0 2px, transparent 3px);
+}
+
+body.vol-lluvia {
+  background-image:
+    repeating-linear-gradient(105deg, rgba(168,196,176,0.10) 0 1px, transparent 1px 8px),
+    repeating-linear-gradient(105deg, rgba(122,171,138,0.06) 0 1px, transparent 1px 14px);
+}
+
+body.vol-corteza {
+  background-image:
+    repeating-linear-gradient(0deg, rgba(74,158,110,0.08) 0 2px, transparent 2px 6px, rgba(122,171,138,0.06) 6px 7px, transparent 7px 13px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.18) 0 1px, transparent 1px 9px);
+}
+
+/* ===================================================== */
+/* Chrome de ventana Nautilus / GNOME 2                  */
+/* ===================================================== */
+
+/* --- Panel superior estilo GNOME 2 --- */
+.gnome-panel {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 3px 12px;
+  background: linear-gradient(180deg, #2d6b4a, #1e4a33);
+  border-bottom: 1px solid #0a3d26;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 3px rgba(0, 0, 0, 0.4);
+  font-family: 'Bitstream Vera Sans', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  font-size: 13px;
+}
+
+.gnome-panel-brand {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.gnome-panel-menu {
+  display: flex;
+  gap: 14px;
+}
+
+.gnome-panel-link {
+  color: #d4e8dc;
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+.gnome-panel-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.gnome-panel-clock {
+  margin-left: auto;
+  color: #c8e0d0;
+  font-size: 12px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* main que aloja la ventana: crece para llenar el alto restante, sin padding del tema */
+.nau-main {
+  flex: 1 1 auto;
+  display: flex;
+  min-height: 0;
+}
+
+/* --- Ventana Nautilus: a sangre completa, llena todo el landing bajo el panel --- */
+.nau-window {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin: 0;
+  background: #dcdad5;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6) inset;
+  font-family: 'Bitstream Vera Sans', 'DejaVu Sans', 'Liberation Sans', 'Verdana', sans-serif;
+  color: #2a2a28;
+  overflow: hidden;
+}
+
+/* --- Barra de título --- */
+.nau-titlebar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 6px;
+  background: linear-gradient(180deg, #4a9e6e 0%, #2d6b4a 60%, #1e4a33 100%);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.nau-titlebar-icon {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 auto;
+  background: linear-gradient(180deg, #d4e8dc, #7aab8a);
+  border: 1px solid #0a3d26;
+  border-radius: 2px;
+}
+
+.nau-titlebar-text {
+  flex: 1 1 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nau-titlebar-buttons {
+  display: flex;
+  gap: 4px;
+  flex: 0 0 auto;
+}
+
+.nau-wbtn {
+  width: 18px;
+  height: 16px;
+  line-height: 14px;
+  font-size: 11px;
+  text-align: center;
+  color: #103021;
+  background: linear-gradient(180deg, #e8f0ea, #a8c4b0);
+  border: 1px solid #1e4a33;
+  border-radius: 2px;
+  cursor: default;
+  padding: 0;
+}
+
+.nau-wbtn--close {
+  background: linear-gradient(180deg, #e9847a, #b03d2e);
+  color: #fff;
+  border-color: #7a2418;
+}
+
+/* --- Barra de menú --- */
+.nau-menubar {
+  display: flex;
+  gap: 14px;
+  padding: 3px 10px;
+  background: #dcdad5;
+  border-bottom: 1px solid #b7b4ae;
+  font-size: 12px;
+}
+
+.nau-menu {
+  cursor: default;
+}
+
+.nau-menu u {
+  text-decoration: underline;
+}
+
+/* --- Barra de herramientas --- */
+.nau-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 8px;
+  background: linear-gradient(180deg, #ebe9e4, #cfccc6);
+  border-bottom: 1px solid #b7b4ae;
+}
+
+.nau-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  font-size: 12px;
+  color: #2a2a28;
+  background: linear-gradient(180deg, #f5f3ee, #d6d3cd);
+  border: 1px solid #8d8a85;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.nau-btn-ico {
+  font-size: 13px;
+  line-height: 1;
+  color: #2d6b4a;
+}
+
+.nau-btn--disabled {
+  color: #9a9892;
+}
+
+.nau-btn--disabled .nau-ico-fwd {
+  color: #a8c4b0;
+}
+
+.nau-toolbar-sep {
+  width: 1px;
+  align-self: stretch;
+  margin: 2px 4px;
+  background: #b7b4ae;
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.6);
+}
+
+.nau-toolbar-spacer {
+  flex: 1 1 auto;
+}
+
+.nau-viewas {
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nau-viewas-select {
+  font-size: 12px;
+  padding: 2px 4px;
+  border: 1px solid #8d8a85;
+  border-radius: 3px;
+  background: #f5f3ee;
+}
+
+/* --- Barra de ubicación --- */
+.nau-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  background: #dcdad5;
+  border-bottom: 1px solid #b7b4ae;
+}
+
+.nau-location-label {
+  font-size: 12px;
+  flex: 0 0 auto;
+}
+
+.nau-location-input {
+  flex: 1 1 auto;
+  font-family: 'DejaVu Sans Mono', 'Liberation Mono', monospace;
+  font-size: 12px;
+  padding: 3px 6px;
+  color: #2a2a28;
+  background: #fbfbf9;
+  border: 1px solid #8d8a85;
+  border-radius: 3px;
+}
+
+/* --- Cuerpo: sidebar + contenido --- */
+.nau-body {
+  display: flex;
+  align-items: stretch;
+  flex: 1 1 auto;
+  min-height: 360px;
+}
+
+.nau-sidebar {
+  flex: 0 0 200px;
+  width: 200px;
+  background: #cfccc6;
+  border-right: 1px solid #b7b4ae;
+  padding: 8px 0;
+}
+
+.nau-sidebar-heading {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b6860;
+  padding: 4px 12px;
+}
+
+.nau-places {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nau-places--nested {
+  margin-left: 14px;
+}
+
+.nau-place {
+  display: block;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: #2a2a28;
+  text-decoration: none;
+}
+
+.nau-place:hover {
+  background: rgba(74, 158, 110, 0.18);
+}
+
+.nau-place--active {
+  background: linear-gradient(180deg, #4a9e6e, #2d6b4a);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.nau-place--active:hover {
+  background: linear-gradient(180deg, #4a9e6e, #2d6b4a);
+}
+
+.nau-content {
+  flex: 1 1 auto;
+  background: #ffffff;
+  padding: 16px;
+  overflow: auto;
+}
+
+/* --- Barra de estado --- */
+.nau-statusbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  background: #dcdad5;
+  border-top: 1px solid #b7b4ae;
+  font-size: 11px;
+  color: #4a4843;
+}
+
+.nau-status-right {
+  margin-left: auto;
+}
+
+.nau-status-right::before {
+  content: "·";
+  margin-right: 8px;
+  color: #9a9892;
+}
+
+.nau-resize {
+  width: 12px;
+  height: 12px;
+  flex: 0 0 auto;
+  margin-left: 4px;
+  background-image:
+    linear-gradient(135deg, transparent 45%, #9a9892 45%, #9a9892 55%, transparent 55%),
+    linear-gradient(135deg, transparent 70%, #9a9892 70%, #9a9892 80%, transparent 80%);
+}
+
+@media (max-width: 640px) {
+  .nau-window {
+    margin: 1rem 0.5rem;
+  }
+  .nau-sidebar {
+    display: none;
+  }
+}
+
+/* ===================================================== */
+/* Vista de iconos — folders GTK                         */
+/* ===================================================== */
+
+.poem-iconview {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px 8px;
+  padding: 10px 6px;
+}
+
+@media (max-width: 560px) {
+  .poem-iconview { grid-template-columns: repeat(2, 1fr); }
+}
+
+.poem-folder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 4px;
+  text-decoration: none;
+  color: #2a2a28;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.poem-folder:hover {
+  background: rgba(74, 158, 110, 0.14);
+  border-color: rgba(74, 158, 110, 0.4);
+}
+
+.poem-folder-icon {
+  position: relative;
+  width: 88px;
+  height: 70px;
+}
+
+.poem-folder-tab {
+  position: absolute;
+  top: 0;
+  left: 6px;
+  width: 38px;
+  height: 12px;
+  background: linear-gradient(180deg, #cfa75e, #a07c30);
+  border: 1px solid #6e4f15;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.poem-folder-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 88px;
+  height: 60px;
+  background-color: #1e4a33;
+  border: 1px solid #6e4f15;
+  border-radius: 3px 6px 4px 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+/* Texturas de folder por volumen (opacidades ~4× para legibilidad pequeña) */
+.folder-niebla {
+  background-color: #244c38;
+  background-image:
+    radial-gradient(ellipse 60px 22px at 30% 30%, rgba(122,171,138,0.40), transparent 70%),
+    radial-gradient(ellipse 70px 26px at 75% 70%, rgba(122,171,138,0.32), transparent 72%),
+    repeating-linear-gradient(0deg, rgba(212,232,220,0.09) 0 1px, transparent 1px 4px);
+}
+
+.folder-hojas {
+  background-color: #234a34;
+  background-image:
+    radial-gradient(circle at 20% 25%, rgba(122,171,138,0.6) 0 2px, transparent 3px),
+    radial-gradient(circle at 60% 35%, rgba(74,158,110,0.5) 0 2.5px, transparent 4px),
+    radial-gradient(circle at 80% 60%, rgba(122,171,138,0.55) 0 2px, transparent 3px),
+    radial-gradient(circle at 35% 75%, rgba(74,158,110,0.45) 0 2px, transparent 3px);
+}
+
+.folder-lluvia {
+  background-color: #21443a;
+  background-image:
+    repeating-linear-gradient(105deg, rgba(168,196,176,0.4) 0 1px, transparent 1px 8px),
+    repeating-linear-gradient(105deg, rgba(122,171,138,0.24) 0 1px, transparent 1px 14px);
+}
+
+.folder-corteza {
+  background-color: #1f3f2c;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(74,158,110,0.32) 0 2px, transparent 2px 6px, rgba(122,171,138,0.24) 6px 7px, transparent 7px 13px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.5) 0 1px, transparent 1px 9px);
+}
+
+/* Volúmenes por venir reutilizan las texturas existentes */
+.folder-cenote { background-color: #234a34;
+  background-image:
+    radial-gradient(circle at 20% 25%, rgba(122,171,138,0.6) 0 2px, transparent 3px),
+    radial-gradient(circle at 60% 35%, rgba(74,158,110,0.5) 0 2.5px, transparent 4px),
+    radial-gradient(circle at 80% 60%, rgba(122,171,138,0.55) 0 2px, transparent 3px),
+    radial-gradient(circle at 35% 75%, rgba(74,158,110,0.45) 0 2px, transparent 3px);
+}
+.folder-analogica { background-color: #21443a;
+  background-image:
+    repeating-linear-gradient(105deg, rgba(168,196,176,0.4) 0 1px, transparent 1px 8px),
+    repeating-linear-gradient(105deg, rgba(122,171,138,0.24) 0 1px, transparent 1px 14px);
+}
+.folder-reflejos { background-color: #1f3f2c;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(74,158,110,0.32) 0 2px, transparent 2px 6px, rgba(122,171,138,0.24) 6px 7px, transparent 7px 13px),
+    repeating-linear-gradient(90deg, rgba(0,0,0,0.5) 0 1px, transparent 1px 9px);
+}
+
+/* Folder de volumen aún no publicado */
+.poem-folder--soon {
+  cursor: default;
+  opacity: 0.5;
+  filter: grayscale(0.4);
+}
+.poem-folder--soon:hover {
+  background: transparent;
+  border-color: transparent;
+}
+.poem-folder--soon .poem-folder-count {
+  font-style: italic;
+  letter-spacing: 0.04em;
+}
+
+.poem-folder-title {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.2;
+  color: #1e3a2a;
+}
+
+.poem-journal-soon {
+  font-family: 'EB Garamond', Georgia, serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #6b6860;
+  margin-top: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.poem-folder-count {
+  font-size: 11px;
+  color: #6b6860;
+}
+
+/* ===================================================== */
+/* Diario de papel — listado de volumen                  */
+/* ===================================================== */
+
+/* Papel sepia para el contenido de TODO el sitio */
+.nau-content {
+  background: #f1e9d6;
+  color: #3a2f1e;
+  padding: 0;
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+/* La vista de iconos (raíz de poemas) conserva fondo claro de explorador */
+.nau-content:has(.poem-iconview) {
+  background: #ffffff;
+  padding: 10px 6px;
+}
+
+/* Banner de acompañamiento en la home */
+.home-banner {
+  display: block;
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-bottom: 1px solid #c2b48c;
+}
+
+/* Forzar texto oscuro sobre papel en el contenido genérico del tema (ananke) */
+.nau-content .near-white,
+.nau-content .white,
+.nau-content .mid-gray,
+.nau-content .gray,
+.nau-content .silver,
+.nau-content .moon-gray,
+.nau-content .near-black,
+.nau-content .black {
+  color: #3a2f1e !important;
+}
+
+.nau-content a {
+  color: #8a5a1a;
+}
+
+.nau-content a:hover {
+  color: #b3771f;
+}
+
+/* Neutralizar los fondos oscuros de tarjetas/cajas dentro del papel */
+.nau-content .bg-forest-card,
+.nau-content .bg-forest-dark,
+.nau-content .bg-dark-green,
+.nau-content .bg-near-black,
+.nau-content .bg-black-30 {
+  background-color: rgba(58, 47, 30, 0.05) !important;
+}
+
+/* Botón "Leer más" legible sobre el papel sepia */
+.nau-content a.ba {
+  background-color: #2d6b4a !important;
+  border-color: #1e4a33 !important;
+  color: #f1e9d6 !important;
+  text-decoration: none;
+}
+
+.nau-content a.ba:hover {
+  background-color: #1e4a33 !important;
+  color: #ffffff !important;
+}
+
+/* Bordes/acentos coherentes con el papel */
+.nau-content .post-header-forest,
+.nau-content .license-block {
+  border-color: #c2b48c !important;
+}
+
+.poem-journal {
+  font-family: 'EB Garamond', Georgia, serif;
+  color: #3a2f1e;
+  background: #f1e9d6;
+  padding: 40px 48px 56px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.poem-journal-title {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 34px;
+  text-align: center;
+  margin: 0 0 4px;
+  color: #2e2412;
+}
+
+.poem-journal-volnum {
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #7a6440;
+  margin-bottom: 28px;
+}
+
+.poem-journal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.poem-journal-chapter {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  font-size: 12px;
+  color: #7a6440;
+  margin: 28px 0 14px;
+  padding: 8px 0;
+  border-top: 1px solid #7a6440;
+  border-bottom: 1px solid #7a6440;
+}
+
+.poem-journal-item a {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #3a2f1e;
+}
+
+.poem-journal-item a:hover {
+  color: #8a5a1a;
+}
+
+.poem-journal-num {
+  flex: 0 0 auto;
+  font-style: italic;
+  font-size: 13px;
+  color: #7a6440;
+  min-width: 2.4em;
+  text-align: right;
+}
+
+.poem-journal-name {
+  flex: 0 0 auto;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.poem-journal-leader {
+  flex: 1 1 auto;
+  border-bottom: 1px dotted #a8946a;
+  transform: translateY(-3px);
+}
+
+.poem-journal-date {
+  flex: 0 0 auto;
+  font-family: 'Special Elite', 'Courier New', monospace;
+  font-size: 11px;
+  color: #8a7550;
+}
+
+/* ===================================================== */
+/* Hoja sepia — poema individual                         */
+/* ===================================================== */
+
+.poem-paper {
+  font-family: 'EB Garamond', Georgia, serif;
+  color: #3a2f1e;
+  background: #f1e9d6;
+  padding: 48px 40px 64px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.poem-paper-num {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  color: #7a6440;
+}
+
+.poem-paper-title {
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 32px;
+  margin: 6px 0 4px;
+  color: #2e2412;
+}
+
+.poem-paper-date {
+  text-align: center;
+  font-family: 'Special Elite', 'Courier New', monospace;
+  font-size: 11px;
+  color: #8a7550;
+  margin-bottom: 28px;
+}
+
+.poem-paper-body {
+  font-size: 18px;
+  line-height: 1.75;
+  max-width: 380px;
+  margin: 0 auto;
+  text-align: center;
+  color: #322a1c;
+}
+
+.poem-paper-body img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 28px;
+  border: 1px solid #c2b48c;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.poem-paper-body p {
+  margin: 0 0 1.1em;
+}
+
+.poem-paper .license-block {
+  margin-top: 3rem;
+  border-top-color: #c2b48c;
+}
+
+.poem-paper .license-block p {
+  color: #8a7550;
+}
+
+/* ===================================================== */
+/* Controles de ventana (Minimizar / Maximizar) — CSS    */
+/* ===================================================== */
+
+.nau-toggle { display: none; }
+
+/* Los botones de la barra de título son labels/enlaces clicables */
+.nau-wbtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  text-decoration: none;
+}
+
+/* La ventana anima su entrada/salida */
+.nau-window {
+  transition: transform 0.32s ease, opacity 0.32s ease;
+}
+
+/* --- Minimizar: la ventana baja y deja el escritorio en blanco --- */
+#nau-min:checked ~ main .nau-window {
+  transform: translateY(120%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Barra de tareas para restaurar (oculta salvo al minimizar) */
+.nau-taskbar { display: none; }
+
+#nau-min:checked ~ .nau-taskbar {
+  display: flex;
+  position: fixed;
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  z-index: 40;
+  cursor: pointer;
+}
+
+.nau-taskbar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  font-family: 'Bitstream Vera Sans', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  font-size: 13px;
+  color: #fff;
+  background: linear-gradient(180deg, #4a9e6e, #2d6b4a);
+  border: 1px solid #1e4a33;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.3) inset, 0 4px 12px rgba(0,0,0,0.45);
+}
+
+/* --- Maximizar: vista general tipo Exposé --- */
+.nau-overview { display: none; }
+
+#nau-max:checked ~ .nau-overview {
+  display: block;
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+}
+
+.nau-overview-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 22, 16, 0.78);
+  cursor: pointer;
+}
+
+.nau-overview-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  max-height: 100vh;
+  overflow: auto;
+}
+
+.nau-mini {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: #dcdad5;
+  border: 1px solid #1e4a33;
+  border-radius: 4px 4px 2px 2px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+  overflow: hidden;
+  transition: transform 0.15s ease;
+}
+
+.nau-mini:hover {
+  transform: translateY(-3px) scale(1.02);
+}
+
+.nau-mini-bar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  font-family: 'Bitstream Vera Sans', 'DejaVu Sans', 'Liberation Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.35);
+  background: linear-gradient(180deg, #4a9e6e 0%, #2d6b4a 60%, #1e4a33 100%);
+}
+
+.nau-mini-dot {
+  width: 10px;
+  height: 10px;
+  flex: 0 0 auto;
+  background: linear-gradient(180deg, #d4e8dc, #7aab8a);
+  border: 1px solid #0a3d26;
+  border-radius: 2px;
+}
+
+.nau-mini-body {
+  height: 96px;
+  background-color: #1e4a33;
+}
+
+/* ===================================================== */
+/* Botón de modo claro/oscuro (panel GNOME)              */
+/* ===================================================== */
+
+.theme-toggle {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+  color: #d4e8dc;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+/* El reloj ya no necesita empujar a la derecha (lo hace el botón) */
+.gnome-panel-clock { margin-left: 0; }
+
+/* Mostrar el icono según el tema activo */
+.theme-toggle-moon { display: none; }
+html[data-theme="dark"] .theme-toggle-sun { display: none; }
+html[data-theme="dark"] .theme-toggle-moon { display: inline; }
+
+/* ===================================================== */
+/* Tema oscuro — toda la ventana                         */
+/* ===================================================== */
+
+/* Escritorio (wallpaper) un poco más profundo */
+html[data-theme="dark"] body.bg-near-black { background-color: #070d0a; }
+
+/* Chrome de la ventana */
+html[data-theme="dark"] .nau-window {
+  background: #202622;
+  color: #cdd6c8;
+}
+
+html[data-theme="dark"] .nau-toolbar {
+  background: linear-gradient(180deg, #2a322c, #222a24);
+  border-bottom-color: #11201a;
+}
+
+html[data-theme="dark"] .nau-location {
+  background: #202622;
+  border-bottom-color: #11201a;
+}
+
+html[data-theme="dark"] .nau-location-label { color: #9ab0a0; }
+
+html[data-theme="dark"] .nau-location-input {
+  background: #171c19;
+  color: #cdd6c8;
+  border-color: #11201a;
+}
+
+html[data-theme="dark"] .nau-statusbar {
+  background: #202622;
+  border-top-color: #11201a;
+  color: #9ab0a0;
+}
+
+html[data-theme="dark"] .nau-sidebar {
+  background: #1a201c;
+  border-right-color: #11201a;
+}
+
+html[data-theme="dark"] .nau-sidebar-heading { color: #7e948a; }
+html[data-theme="dark"] .nau-place { color: #cdd6c8; }
+html[data-theme="dark"] .nau-place:hover { background: rgba(74, 158, 110, 0.22); }
+
+html[data-theme="dark"] .nau-btn {
+  background: linear-gradient(180deg, #323b34, #262e28);
+  border-color: #11201a;
+  color: #cdd6c8;
+}
+
+html[data-theme="dark"] .nau-btn--disabled { color: #5d6b62; }
+
+/* Contenido / papel */
+html[data-theme="dark"] .nau-content {
+  background: #1b211d;
+  color: #cdd6c8;
+}
+
+html[data-theme="dark"] .nau-content:has(.poem-iconview) {
+  background: #151a17;
+}
+
+html[data-theme="dark"] .poem-journal,
+html[data-theme="dark"] .poem-paper {
+  background: #1b211d;
+  color: #cdd6c8;
+}
+
+/* Texto del contenido genérico del tema en claro -> claro en oscuro */
+html[data-theme="dark"] .nau-content .near-white,
+html[data-theme="dark"] .nau-content .white,
+html[data-theme="dark"] .nau-content .mid-gray,
+html[data-theme="dark"] .nau-content .gray,
+html[data-theme="dark"] .nau-content .silver,
+html[data-theme="dark"] .nau-content .moon-gray,
+html[data-theme="dark"] .nau-content .near-black,
+html[data-theme="dark"] .nau-content .black {
+  color: #cdd6c8 !important;
+}
+
+html[data-theme="dark"] .nau-content a { color: #9ec9a8; }
+html[data-theme="dark"] .nau-content a:hover { color: #c8e0d0; }
+
+/* Títulos / acentos del papel */
+html[data-theme="dark"] .poem-journal-title,
+html[data-theme="dark"] .poem-paper-title { color: #e8efe2; }
+
+html[data-theme="dark"] .poem-journal-volnum,
+html[data-theme="dark"] .poem-journal-num,
+html[data-theme="dark"] .poem-journal-chapter,
+html[data-theme="dark"] .poem-paper-num { color: #9ab0a0; }
+
+html[data-theme="dark"] .poem-journal-chapter {
+  border-top-color: #3a463e;
+  border-bottom-color: #3a463e;
+}
+
+html[data-theme="dark"] .poem-journal-leader { border-bottom-color: #3a463e; }
+html[data-theme="dark"] .poem-journal-date,
+html[data-theme="dark"] .poem-paper-date { color: #80968a; }
+
+html[data-theme="dark"] .poem-journal-item a { color: #cdd6c8; }
+html[data-theme="dark"] .poem-journal-item a:hover { color: #9ec9a8; }
+html[data-theme="dark"] .poem-paper-body { color: #cdd6c8; }
+
+/* Folder titles en la vista de iconos */
+html[data-theme="dark"] .poem-folder-title { color: #d4e8dc; }
+html[data-theme="dark"] .poem-folder-count { color: #8aa092; }
+html[data-theme="dark"] .poem-folder:hover { background: rgba(74, 158, 110, 0.18); }

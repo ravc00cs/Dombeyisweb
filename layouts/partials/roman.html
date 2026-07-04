@@ -1,0 +1,15 @@
+{{- /* Convierte un entero (1–3999) a número romano. Uso: {{ partial "roman.html" 14 }} */ -}}
+{{- $n := . -}}
+{{- $out := "" -}}
+{{- $vals := slice 1000 900 500 400 100 90 50 40 10 9 5 4 1 -}}
+{{- $syms := slice "M" "CM" "D" "CD" "C" "XC" "L" "XL" "X" "IX" "V" "IV" "I" -}}
+{{- range $i, $v := $vals -}}
+  {{- $sym := index $syms $i -}}
+  {{- range seq 4 -}}
+    {{- if ge $n $v -}}
+      {{- $out = print $out $sym -}}
+      {{- $n = sub $n $v -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $out -}}

@@ -1,0 +1,31 @@
+{{- /* Sidebar "Lugares" de todo el sitio. Contexto: la página actual (.) */ -}}
+{{- $page := . -}}
+{{- $poemas := site.GetPage "/poemas" -}}
+<nav class="nau-sidebar" aria-label="Lugares">
+  <div class="nau-sidebar-heading">Lugares</div>
+  <ul class="nau-places">
+    <li>
+      <a class="nau-place {{ if $page.IsHome }}nau-place--active{{ end }}" href="{{ "/" | relURL }}">Inicio</a>
+    </li>
+    {{- range site.Menus.main -}}
+      {{- $sec := strings.Trim .URL "/" -}}
+      {{- $isPoemas := eq $sec "poemas" -}}
+      {{- $secActive := and (not $page.IsHome) (eq $sec $page.Section) -}}
+      {{/* El item Poemas se resalta solo en la raíz; dentro de un volumen se resalta el volumen */}}
+      {{- $active := cond $isPoemas (eq $page.RelPermalink $poemas.RelPermalink) $secActive -}}
+      <li>
+        <a class="nau-place {{ if $active }}nau-place--active{{ end }}" href="{{ .URL | relURL }}">{{ .Name }}</a>
+        {{- if and $isPoemas $poemas -}}
+          <ul class="nau-places nau-places--nested">
+            {{- range $poemas.Sections.ByWeight -}}
+              {{- $volActive := hasPrefix $page.RelPermalink .RelPermalink -}}
+              <li>
+                <a class="nau-place {{ if $volActive }}nau-place--active{{ end }}" href="{{ .RelPermalink }}">{{ .Title }}</a>
+              </li>
+            {{- end -}}
+          </ul>
+        {{- end -}}
+      </li>
+    {{- end -}}
+  </ul>
+</nav>

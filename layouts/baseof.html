@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" {{- if eq site.Language.LanguageDirection "rtl" }} dir="rtl" {{- end }}>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {{/* NOTE: the Site's title, and if there is a page title, that is set too */}}
+    <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+    {{ hugo.Generator }}
+    {{ $production := hugo.IsProduction }}
+    {{ $public := not .Params.private }}
+    {{ if and $production $public }}
+      <meta name="robots" content="index, follow">
+    {{ else }}
+      <meta name="robots" content="noindex, nofollow">
+    {{ end }}
+    {{ with .Params.author | compare.Default .Site.Params.author }}
+      {{- $author := . -}}
+      {{- if reflect.IsSlice . -}}
+        {{- $author = collections.Delimit . ", " | transform.Plainify -}}
+      {{- end -}}
+      <meta name="author" content="{{ $author }}">
+    {{ end }}
+
+    {{ partials.Include "site-style.html" . }}
+    {{ partials.Include "site-scripts.html" . }}
+
+    {{ block "favicon" . }}
+      {{ partials.IncludeCached "site-favicon.html" . }}
+    {{ end }}
+
+    {{ if .OutputFormats.Get "RSS" }}
+    {{ with .OutputFormats.Get "RSS" }}
+      <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+      {{ end }}
+    {{ end }}
+
+    {{ if .Params.canonicalUrl }}
+      <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+    {{ else }}
+      <link rel="canonical" href="{{ .Permalink }}">
+    {{ end }}
+
+    {{/* NOTE: These Hugo Internal Templates can be found starting at https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
+    {{/* former internal templates */}}
+    {{ partial "opengraph.html" . -}}
+    {{ partial "schema.html" . -}}
+    {{ partial "twitter_cards.html" . -}}
+
+    {{ if hugo.IsProduction }}
+      {{/* former internal template */}}
+      {{ partial "google_analytics.html" . }}
+    {{ end }}
+	{{ block "head" . }}{{ partials.Include "head-additions.html" . }}{{ end }}
+  </head>
+
+  {{- $environment := hugo.Environment | default "production" -}}
+
+  {{/* Generate dynamic classes for the body tag */}}
+  {{- $body_classes := slice "ma0" ($.Param "body_classes" | default "avenir bg-near-white") $environment -}}
+  {{- $body_classes = $body_classes | append (printf "is-%s" .Kind) -}}
+
+  {{- if .IsPage -}}
+    {{- $body_classes = $body_classes | append "is-page" -}}
+    {{- with .File -}}
+      {{- $body_classes = $body_classes | append (printf "page-%s" .ContentBaseName) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if .IsSection -}}{{- $body_classes = $body_classes | append "is-section" -}}{{- end -}}
+
+  {{/* ---- Datos para la chrome de ventana Nautilus (envuelve TODO el sitio) ---- */}}
+  {{- $homeDir := "/home/dombeyis" -}}
+  {{- $location := $homeDir -}}
+  {{- if not .IsHome -}}{{- $location = printf "%s%s" $homeDir (strings.TrimSuffix "/" .RelPermalink) -}}{{- end -}}
+  {{- $title := .Title | default site.Title -}}
+  {{- $statusLeft := "" -}}
+  {{- if .IsHome -}}{{- $statusLeft = "Inicio" -}}
+  {{- else if .IsPage -}}{{- $statusLeft = printf "%d palabras" .WordCount -}}
+  {{- else -}}{{- $statusLeft = printf "%d elementos" (len .Pages) -}}{{- end -}}
+  {{- $statusRight := cond (not .Date.IsZero) (.Date.Format "2006") "" -}}
+
+  {{/* ---- Navegación de la barra de herramientas ---- */}}
+  {{- $up := "" -}}
+  {{- if and (not .IsHome) .Parent -}}{{- $up = .Parent.RelPermalink -}}{{- end -}}
+  {{- $prev := "" -}}
+  {{- $next := "" -}}
+  {{- $sibs := slice -}}
+  {{- if .IsPage -}}
+    {{- with .Parent -}}{{- $sibs = .RegularPages.ByWeight -}}{{- end -}}
+  {{- else if and .IsSection (not .IsHome) -}}
+    {{- with .Parent -}}{{- $sibs = .Sections.ByWeight -}}{{- end -}}
+  {{- end -}}
+  {{- range $i, $p := $sibs -}}
+    {{- if eq $p.RelPermalink $.RelPermalink -}}
+      {{- if gt $i 0 -}}{{- $prev = (index $sibs (sub $i 1)).RelPermalink -}}{{- end -}}
+      {{- if lt $i (sub (len $sibs) 1) -}}{{- $next = (index $sibs (add $i 1)).RelPermalink -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  <body class="{{ delimit $body_classes " " }}">
+    {{/* Estados de la ventana (truco CSS, sin JS) */}}
+    <input type="checkbox" id="nau-min" class="nau-toggle">
+    <input type="checkbox" id="nau-max" class="nau-toggle">
+    {{ block "header" . }}{{ partials.Include "site-header.html" .}}{{ end }}
+    <main class="nau-main" role="main">
+      <div class="nau-window">
+        <div class="nau-titlebar">
+          <span class="nau-titlebar-icon" aria-hidden="true"></span>
+          <span class="nau-titlebar-text">{{ $title }}</span>
+          <span class="nau-titlebar-buttons">
+            <label class="nau-wbtn nau-wbtn--min" for="nau-min" title="Minimizar" aria-label="Minimizar">&#8211;</label>
+            <label class="nau-wbtn nau-wbtn--max" for="nau-max" title="Maximizar" aria-label="Maximizar">&#9633;</label>
+            <a class="nau-wbtn nau-wbtn--close" href="{{ "/" | relURL }}" title="Cerrar" aria-label="Cerrar">&#10005;</a>
+          </span>
+        </div>
+        <div class="nau-toolbar">
+          {{ if $prev }}<a class="nau-btn" href="{{ $prev }}" title="Anterior"><span class="nau-btn-ico nau-ico-back">&#8592;</span> Atrás</a>
+          {{ else }}<span class="nau-btn nau-btn--disabled"><span class="nau-btn-ico nau-ico-back">&#8592;</span> Atrás</span>{{ end }}
+          {{ if $next }}<a class="nau-btn" href="{{ $next }}" title="Siguiente"><span class="nau-btn-ico nau-ico-fwd">&#8594;</span> Adelante</a>
+          {{ else }}<span class="nau-btn nau-btn--disabled"><span class="nau-btn-ico nau-ico-fwd">&#8594;</span> Adelante</span>{{ end }}
+          {{ if $up }}<a class="nau-btn" href="{{ $up }}" title="Subir un nivel"><span class="nau-btn-ico nau-ico-up">&#8593;</span> Subir</a>
+          {{ else }}<span class="nau-btn nau-btn--disabled"><span class="nau-btn-ico nau-ico-up">&#8593;</span> Subir</span>{{ end }}
+          <span class="nau-toolbar-sep" aria-hidden="true"></span>
+          <a class="nau-btn" href="{{ .RelPermalink }}" title="Recargar"><span class="nau-btn-ico">&#8635;</span> Recargar</a>
+          <a class="nau-btn" href="{{ "/" | relURL }}" title="Inicio"><span class="nau-btn-ico">&#9750;</span> Inicio</a>
+        </div>
+        <div class="nau-location">
+          <label class="nau-location-label" for="nau-loc-input">Ubicación:</label>
+          <input id="nau-loc-input" class="nau-location-input" type="text" readonly value="{{ $location }}" tabindex="-1">
+        </div>
+        <div class="nau-body">
+          {{ partial "nau-sidebar.html" . }}
+          <div class="nau-content">
+            {{ block "main" . }}{{ end }}
+          </div>
+        </div>
+        <div class="nau-statusbar">
+          <span class="nau-status-left">{{ $statusLeft }}</span>
+          {{ with $statusRight }}<span class="nau-status-right">{{ . }}</span>{{ end }}
+          <span class="nau-resize" aria-hidden="true"></span>
+        </div>
+      </div>
+    </main>
+    {{ block "footer" . }}{{ partials.IncludeCached "site-footer.html" . }}{{ end }}
+
+    {{/* Vista general (Maximizar) y barra de tareas (restaurar desde Minimizar) */}}
+    {{ partial "nau-overview.html" . }}
+    <label class="nau-taskbar" for="nau-min" title="Restaurar ventana">
+      <span class="nau-taskbar-btn"><span class="nau-titlebar-icon" aria-hidden="true"></span>{{ $title }}</span>
+    </label>
+  </body>
+</html>

@@ -2,9 +2,11 @@
 title: "Al Sol"
 date: 2026-04-20
 draft: false
-weight: 28
+weight: 29
 chapter: "cruzando la niebla"
 book: "cruzando-la-niebla"
+aliases:
+  - "/poemas/cruzando-la-niebla/28-al-sol/"
 params:
   license: "copyright"
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."

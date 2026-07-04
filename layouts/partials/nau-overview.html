@@ -1,0 +1,33 @@
+{{- /* Overview tipo Exposé: mini-ventanas de todas las secciones. Contexto: . */ -}}
+{{- $poemas := site.GetPage "/poemas" -}}
+<div class="nau-overview">
+  <label class="nau-overview-backdrop" for="nau-max" aria-label="Cerrar vista general"></label>
+  <div class="nau-overview-grid">
+
+    {{/* Inicio */}}
+    <a class="nau-mini" href="{{ "/" | relURL }}">
+      <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Inicio</span>
+      <span class="nau-mini-body folder-niebla"></span>
+    </a>
+
+    {{/* Secciones del menú principal */}}
+    {{- range site.Menus.main -}}
+      {{- $isPoemas := eq (strings.Trim .URL "/") "poemas" -}}
+      <a class="nau-mini" href="{{ .URL | relURL }}">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>{{ .Name }}</span>
+        <span class="nau-mini-body {{ if $isPoemas }}folder-hojas{{ else }}folder-lluvia{{ end }}"></span>
+      </a>
+      {{/* Volúmenes de poemas como mini-ventanas extra */}}
+      {{- if and $isPoemas $poemas -}}
+        {{- range $poemas.Sections.ByWeight -}}
+          {{- $slug := .Params.volume_slug | default "niebla" -}}
+          <a class="nau-mini" href="{{ .RelPermalink }}">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>{{ .Title }}</span>
+            <span class="nau-mini-body folder-{{ $slug }}"></span>
+          </a>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+
+  </div>
+</div>

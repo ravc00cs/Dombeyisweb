@@ -65,7 +65,33 @@
   <meta name="twitter:description" content="Libro / Opinión:  Impresiones del libro de Leonardo Padura">
 
 	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap">
+
+
+<script>
+(function () {
+  function apply(t) { document.documentElement.setAttribute('data-theme', t); }
+  try {
+    var saved = localStorage.getItem('theme');
+    apply(saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  } catch (e) { apply('light'); }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.theme-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    apply(next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+})();
+</script>
+
   </head><body class="ma0 georgia bg-near-black development is-page is-page page-morir-en-la-arena">
+    
+    <input type="checkbox" id="nau-min" class="nau-toggle">
+    <input type="checkbox" id="nau-max" class="nau-toggle">
     
   
 
@@ -115,8 +141,54 @@
 
 
 
-    <main class="pb7" role="main">
-      
+    <main class="nau-main" role="main">
+      <div class="nau-window">
+        <div class="nau-titlebar">
+          <span class="nau-titlebar-icon" aria-hidden="true"></span>
+          <span class="nau-titlebar-text">Morir en La Arena</span>
+          <span class="nau-titlebar-buttons">
+            <label class="nau-wbtn nau-wbtn--min" for="nau-min" title="Minimizar" aria-label="Minimizar">&#8211;</label>
+            <label class="nau-wbtn nau-wbtn--max" for="nau-max" title="Maximizar" aria-label="Maximizar">&#9633;</label>
+            <a class="nau-wbtn nau-wbtn--close" href="/" title="Cerrar" aria-label="Cerrar">&#10005;</a>
+          </span>
+        </div>
+        <div class="nau-toolbar">
+          <a class="nau-btn" href="/sobrepensar/primitivo/" title="Anterior"><span class="nau-btn-ico nau-ico-back">&#8592;</span> Atrás</a>
+          
+          <a class="nau-btn" href="/sobrepensar/lasuvasdelaira/" title="Siguiente"><span class="nau-btn-ico nau-ico-fwd">&#8594;</span> Adelante</a>
+          
+          <a class="nau-btn" href="/sobrepensar/" title="Subir un nivel"><span class="nau-btn-ico nau-ico-up">&#8593;</span> Subir</a>
+          
+          <span class="nau-toolbar-sep" aria-hidden="true"></span>
+          <a class="nau-btn" href="/sobrepensar/morir-en-la-arena/" title="Recargar"><span class="nau-btn-ico">&#8635;</span> Recargar</a>
+          <a class="nau-btn" href="/" title="Inicio"><span class="nau-btn-ico">&#9750;</span> Inicio</a>
+        </div>
+        <div class="nau-location">
+          <label class="nau-location-label" for="nau-loc-input">Ubicación:</label>
+          <input id="nau-loc-input" class="nau-location-input" type="text" readonly value="/home/dombeyis/sobrepensar/morir-en-la-arena" tabindex="-1">
+        </div>
+        <div class="nau-body">
+          <nav class="nau-sidebar" aria-label="Lugares">
+  <div class="nau-sidebar-heading">Lugares</div>
+  <ul class="nau-places">
+    <li>
+      <a class="nau-place " href="/">Inicio</a>
+    </li><li>
+        <a class="nau-place nau-place--active" href="/sobrepensar/">SobrePensar</a></li><li>
+        <a class="nau-place " href="/poemas/">Poemas</a><ul class="nau-places nau-places--nested"><li>
+                <a class="nau-place " href="/poemas/cruzando-la-niebla/">Cruzando la Niebla</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/cenote/">Cenote</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/analogica/">Analógica</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/reflejos/">Reflejos</a>
+              </li></ul></li><li>
+        <a class="nau-place " href="/sobre-mi/">Sobre mi</a></li></ul>
+</nav>
+
+          <div class="nau-content">
+            
   <article class="page-morir-en-la-arena flex-l mw7 center ph3 flex-wrap justify-between">
     <header class="mt4 mb5 w-100 post-header-forest">
       <aside class="instapaper_ignoref b helvetica tracked ttu">
@@ -149,6 +221,14 @@ Finalmente, solo puedo decir que las cosas que se mueven, tienden a morir mejor,
       
     </div></article>
 
+          </div>
+        </div>
+        <div class="nau-statusbar">
+          <span class="nau-status-left">947 palabras</span>
+          <span class="nau-status-right">2026</span>
+          <span class="nau-resize" aria-hidden="true"></span>
+        </div>
+      </div>
     </main>
     <footer class="bg-forest-dark bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
@@ -160,5 +240,47 @@ Finalmente, solo puedo decir que las cosas que se mueven, tienden a morir mejor,
   </div>
 </footer>
 
+
+    
+    <div class="nau-overview">
+  <label class="nau-overview-backdrop" for="nau-max" aria-label="Cerrar vista general"></label>
+  <div class="nau-overview-grid">
+
+    
+    <a class="nau-mini" href="/">
+      <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Inicio</span>
+      <span class="nau-mini-body folder-niebla"></span>
+    </a>
+
+    <a class="nau-mini" href="/sobrepensar/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>SobrePensar</span>
+        <span class="nau-mini-body folder-lluvia"></span>
+      </a>
+      <a class="nau-mini" href="/poemas/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Poemas</span>
+        <span class="nau-mini-body folder-hojas"></span>
+      </a>
+      <a class="nau-mini" href="/poemas/cruzando-la-niebla/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Cruzando la Niebla</span>
+            <span class="nau-mini-body folder-niebla"></span>
+          </a><a class="nau-mini" href="/poemas/cenote/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Cenote</span>
+            <span class="nau-mini-body folder-cenote"></span>
+          </a><a class="nau-mini" href="/poemas/analogica/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Analógica</span>
+            <span class="nau-mini-body folder-analogica"></span>
+          </a><a class="nau-mini" href="/poemas/reflejos/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Reflejos</span>
+            <span class="nau-mini-body folder-reflejos"></span>
+          </a><a class="nau-mini" href="/sobre-mi/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Sobre mi</span>
+        <span class="nau-mini-body folder-lluvia"></span>
+      </a>
+      </div>
+</div>
+
+    <label class="nau-taskbar" for="nau-min" title="Restaurar ventana">
+      <span class="nau-taskbar-btn"><span class="nau-titlebar-icon" aria-hidden="true"></span>Morir en La Arena</span>
+    </label>
   </body>
 </html>

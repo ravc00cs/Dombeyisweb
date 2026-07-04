@@ -2,17 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/poemas/cruzando-la-niebla/</loc>
+    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/01-retrovisor/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/02-aliento/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/</loc>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/03-amarillos/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/analogica/</loc>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/04-cosas-que-se-mueven/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/reflejos/</loc>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/05-peso/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
@@ -77,19 +86,16 @@
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/25-antorcha/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/poemas/cruzando-la-niebla/26-destinos/</loc>
+    <loc>http://localhost:1313/poemas/cruzando-la-niebla/27-destinos/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/poemas/cruzando-la-niebla/27-lupa/</loc>
+    <loc>http://localhost:1313/poemas/cruzando-la-niebla/28-lupa/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/poemas/cruzando-la-niebla/28-al-sol/</loc>
+    <loc>http://localhost:1313/poemas/cruzando-la-niebla/29-al-sol/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/poemas/cruzando-la-niebla/29-cruzando-la-niebla/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/poemas/cruzando-la-niebla/</loc>
+    <loc>http://localhost:1313/poemas/cruzando-la-niebla/30-cruzando-la-niebla/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/</loc>

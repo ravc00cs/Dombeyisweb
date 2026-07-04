@@ -1,0 +1,17 @@
+{{- /* Panel superior estilo GNOME 2 — reemplaza la cabecera-hero del tema.
+       Fino, con el menú del sitio; la navegación principal vive en la ventana. */ -}}
+<header class="gnome-panel">
+  <a class="gnome-panel-brand" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+  {{- if .Site.Menus.main -}}
+  <nav class="gnome-panel-menu" role="navigation">
+    {{- range .Site.Menus.main -}}
+      <a class="gnome-panel-link" href="{{ .URL }}">{{ .Name }}</a>
+    {{- end -}}
+  </nav>
+  {{- end -}}
+  <button type="button" class="theme-toggle" aria-label="Cambiar modo claro/oscuro" title="Modo claro/oscuro">
+    <span class="theme-toggle-sun" aria-hidden="true">&#9728;</span>
+    <span class="theme-toggle-moon" aria-hidden="true">&#9789;</span>
+  </button>
+  <span class="gnome-panel-clock" aria-hidden="true">{{ now.Format "Mon 2 Jan, 15:04" }}</span>
+</header>

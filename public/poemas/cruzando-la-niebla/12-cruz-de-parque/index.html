@@ -110,74 +110,91 @@ ojala pudiera decirle
 que de grande somos peores">
 
 	
-  </head><body class="ma0 georgia bg-near-black development is-page is-page page-12-cruz-de-parque">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap">
+
+
+<script>
+(function () {
+  function apply(t) { document.documentElement.setAttribute('data-theme', t); }
+  try {
+    var saved = localStorage.getItem('theme');
+    apply(saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  } catch (e) { apply('light'); }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.theme-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    apply(next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+})();
+</script>
+
+  </head><body class="ma0 georgia bg-near-black section-poemas vol-niebla development is-page is-page page-12-cruz-de-parque">
     
-  
+    <input type="checkbox" id="nau-min" class="nau-toggle">
+    <input type="checkbox" id="nau-max" class="nau-toggle">
+    <header class="gnome-panel">
+  <a class="gnome-panel-brand" href="/">Nothofagus Dombeyis</a><nav class="gnome-panel-menu" role="navigation"><a class="gnome-panel-link" href="/sobrepensar/">SobrePensar</a><a class="gnome-panel-link" href="/poemas/">Poemas</a><a class="gnome-panel-link" href="/sobre-mi/">Sobre mi</a></nav><button type="button" class="theme-toggle" aria-label="Cambiar modo claro/oscuro" title="Modo claro/oscuro">
+    <span class="theme-toggle-sun" aria-hidden="true">&#9728;</span>
+    <span class="theme-toggle-moon" aria-hidden="true">&#9789;</span>
+  </button>
+  <span class="gnome-panel-clock" aria-hidden="true">Sat 4 Jul, 14:35</span>
+</header>
 
-  <header>
-    <div class="bg-forest-dark">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Nothofagus Dombeyis
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
+    <main class="nau-main" role="main">
+      <div class="nau-window">
+        <div class="nau-titlebar">
+          <span class="nau-titlebar-icon" aria-hidden="true"></span>
+          <span class="nau-titlebar-text">Cruz de parque</span>
+          <span class="nau-titlebar-buttons">
+            <label class="nau-wbtn nau-wbtn--min" for="nau-min" title="Minimizar" aria-label="Minimizar">&#8211;</label>
+            <label class="nau-wbtn nau-wbtn--max" for="nau-max" title="Maximizar" aria-label="Maximizar">&#9633;</label>
+            <a class="nau-wbtn nau-wbtn--close" href="/" title="Cerrar" aria-label="Cerrar">&#10005;</a>
+          </span>
+        </div>
+        <div class="nau-toolbar">
+          <a class="nau-btn" href="/poemas/cruzando-la-niebla/11-la-casa/" title="Anterior"><span class="nau-btn-ico nau-ico-back">&#8592;</span> Atrás</a>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/sobrepensar/" title="SobrePensar pagina">
-              SobrePensar
-            </a>
-          </li>
+          <a class="nau-btn" href="/poemas/cruzando-la-niebla/13-flores/" title="Siguiente"><span class="nau-btn-ico nau-ico-fwd">&#8594;</span> Adelante</a>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/poemas/" title="Poemas pagina">
-              Poemas
-            </a>
-          </li>
+          <a class="nau-btn" href="/poemas/cruzando-la-niebla/" title="Subir un nivel"><span class="nau-btn-ico nau-ico-up">&#8593;</span> Subir</a>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/sobre-mi/" title="Sobre mi pagina">
-              Sobre mi
-            </a>
-          </li>
-          
-        </ul>
-      
-      <div class="ananke-socials"></div>
-
-    </div>
-  </div>
+          <span class="nau-toolbar-sep" aria-hidden="true"></span>
+          <a class="nau-btn" href="/poemas/cruzando-la-niebla/12-cruz-de-parque/" title="Recargar"><span class="nau-btn-ico">&#8635;</span> Recargar</a>
+          <a class="nau-btn" href="/" title="Inicio"><span class="nau-btn-ico">&#9750;</span> Inicio</a>
+        </div>
+        <div class="nau-location">
+          <label class="nau-location-label" for="nau-loc-input">Ubicación:</label>
+          <input id="nau-loc-input" class="nau-location-input" type="text" readonly value="/home/dombeyis/poemas/cruzando-la-niebla/12-cruz-de-parque" tabindex="-1">
+        </div>
+        <div class="nau-body">
+          <nav class="nau-sidebar" aria-label="Lugares">
+  <div class="nau-sidebar-heading">Lugares</div>
+  <ul class="nau-places">
+    <li>
+      <a class="nau-place " href="/">Inicio</a>
+    </li><li>
+        <a class="nau-place " href="/sobrepensar/">SobrePensar</a></li><li>
+        <a class="nau-place " href="/poemas/">Poemas</a><ul class="nau-places nau-places--nested"><li>
+                <a class="nau-place nau-place--active" href="/poemas/cruzando-la-niebla/">Cruzando la Niebla</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/cenote/">Cenote</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/analogica/">Analógica</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/reflejos/">Reflejos</a>
+              </li></ul></li><li>
+        <a class="nau-place " href="/sobre-mi/">Sobre mi</a></li></ul>
 </nav>
 
-    </div>
-  </header>
-
-
-
-    <main class="pb7" role="main">
-      
-  <article class="page-12-cruz-de-parque flex-l mw7 center ph3 flex-wrap justify-between">
-    <header class="mt4 mb5 w-100 post-header-forest">
-      <aside class="instapaper_ignoref b helvetica tracked ttu">
-        Cruzando la Niebla
-      </aside><div id="sharing" class="mt3 ananke-socials"></div>
-<h1 class="f1 athelas mt3 mb1">Cruz de parque</h1>
-      
-      <p class="tracked"><strong>Ricardo Vivanco</strong>
-      </p>
-      
-      
-      <time class="f6 mv4 dib tracked" datetime="2026-04-20T00:00:00Z">April 20, 2026</time>
-      
-      
-    </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links near-white pr4-l w-100-l"><p><img src="P1040513.JPG" alt="Cruz de parque" title="Panasonic Lumix DMC-LX7"></p>
+          <div class="nau-content">
+            
+  <article class="poem-paper"><div class="poem-paper-num">XII</div><h1 class="poem-paper-title">Cruz de parque</h1><div class="poem-paper-date">20·04·2026</div><div class="poem-paper-body">
+    <p><img src="P1040513.JPG" alt="Cruz de parque" title="Panasonic Lumix DMC-LX7"></p>
 <p>Arrodillado en un banco de madera<br>
 cuando la misa lo pide hacer<br>
 por mi culpa por mi culpa</p>
@@ -197,14 +214,19 @@ apenas salga de la misa</p>
 <p>Correrá de vuelta a casa<br>
 jugará con los mismos juguetes</p>
 <p>hasta que lo vuelvan a retar</p>
-<div class="license-block"><p>© 2026 Ricardo Vivanco. Todos los derechos reservados. Citas breves con atribución permitidas; para usos más amplios, contáctame.</p></div>
-<ul class="pa0">
-  
-</ul>
 
-      
-    </div></article>
+  </div><div class="license-block"><p>© 2026 Ricardo Vivanco. Todos los derechos reservados. Citas breves con atribución permitidas; para usos más amplios, contáctame.</p></div>
+</article>
 
+
+          </div>
+        </div>
+        <div class="nau-statusbar">
+          <span class="nau-status-left">107 palabras</span>
+          <span class="nau-status-right">2026</span>
+          <span class="nau-resize" aria-hidden="true"></span>
+        </div>
+      </div>
     </main>
     <footer class="bg-forest-dark bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
@@ -216,5 +238,47 @@ jugará con los mismos juguetes</p>
   </div>
 </footer>
 
+
+    
+    <div class="nau-overview">
+  <label class="nau-overview-backdrop" for="nau-max" aria-label="Cerrar vista general"></label>
+  <div class="nau-overview-grid">
+
+    
+    <a class="nau-mini" href="/">
+      <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Inicio</span>
+      <span class="nau-mini-body folder-niebla"></span>
+    </a>
+
+    <a class="nau-mini" href="/sobrepensar/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>SobrePensar</span>
+        <span class="nau-mini-body folder-lluvia"></span>
+      </a>
+      <a class="nau-mini" href="/poemas/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Poemas</span>
+        <span class="nau-mini-body folder-hojas"></span>
+      </a>
+      <a class="nau-mini" href="/poemas/cruzando-la-niebla/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Cruzando la Niebla</span>
+            <span class="nau-mini-body folder-niebla"></span>
+          </a><a class="nau-mini" href="/poemas/cenote/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Cenote</span>
+            <span class="nau-mini-body folder-cenote"></span>
+          </a><a class="nau-mini" href="/poemas/analogica/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Analógica</span>
+            <span class="nau-mini-body folder-analogica"></span>
+          </a><a class="nau-mini" href="/poemas/reflejos/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Reflejos</span>
+            <span class="nau-mini-body folder-reflejos"></span>
+          </a><a class="nau-mini" href="/sobre-mi/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Sobre mi</span>
+        <span class="nau-mini-body folder-lluvia"></span>
+      </a>
+      </div>
+</div>
+
+    <label class="nau-taskbar" for="nau-min" title="Restaurar ventana">
+      <span class="nau-taskbar-btn"><span class="nau-titlebar-icon" aria-hidden="true"></span>Cruz de parque</span>
+    </label>
   </body>
 </html>

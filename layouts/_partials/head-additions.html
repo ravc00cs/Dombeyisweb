@@ -1,0 +1,23 @@
+{{/* Fuentes para la estética Nautilus / diario de papel de la sección Poemas */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap">
+
+{{/* Modo oscuro: fija el tema antes del render (sin parpadeo) y delega el clic del botón */}}
+<script>
+(function () {
+  function apply(t) { document.documentElement.setAttribute('data-theme', t); }
+  try {
+    var saved = localStorage.getItem('theme');
+    apply(saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  } catch (e) { apply('light'); }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.theme-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    apply(next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+})();
+</script>

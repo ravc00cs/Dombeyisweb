@@ -1,0 +1,26 @@
+{{- /* Vista de iconos: un folder GTK por volumen. Contexto: la sección /poemas/ */ -}}
+<div class="poem-iconview">
+  {{- range .Sections.ByWeight -}}
+    {{- $slug := .Params.volume_slug | default "niebla" -}}
+    {{- $count := len (where .Pages "Kind" "page") -}}
+    {{- if .Params.coming_soon -}}
+      <div class="poem-folder poem-folder--soon" aria-disabled="true">
+        <span class="poem-folder-icon" aria-hidden="true">
+          <span class="poem-folder-tab"></span>
+          <span class="poem-folder-body folder-{{ $slug }}"></span>
+        </span>
+        <span class="poem-folder-title">{{ .Title }}</span>
+        <span class="poem-folder-count">próximamente</span>
+      </div>
+    {{- else -}}
+      <a class="poem-folder" href="{{ .RelPermalink }}">
+        <span class="poem-folder-icon" aria-hidden="true">
+          <span class="poem-folder-tab"></span>
+          <span class="poem-folder-body folder-{{ $slug }}"></span>
+        </span>
+        <span class="poem-folder-title">{{ .Title }}</span>
+        <span class="poem-folder-count">{{ $count }} poemas</span>
+      </a>
+    {{- end -}}
+  {{- end -}}
+</div>

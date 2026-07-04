@@ -1,0 +1,28 @@
+{{- /* Diario de papel: listado de poemas de un volumen. Contexto: la sección del volumen */ -}}
+<div class="poem-journal">
+  <h1 class="poem-journal-title">{{ .Title }}</h1>
+  {{- with .Params.volume_number }}<div class="poem-journal-volnum">Volumen {{ . }}</div>{{ end -}}
+
+  {{- if .Params.coming_soon -}}
+    <p class="poem-journal-soon">Próximamente</p>
+  {{- else -}}
+  {{- $prevChapter := "" -}}
+  <ol class="poem-journal-list">
+    {{- range .Pages.ByWeight -}}
+      {{- $chapter := .Params.chapter | default "" -}}
+      {{- if and $chapter (ne $chapter $prevChapter) -}}
+        <li class="poem-journal-chapter"><span>{{ $chapter }}</span></li>
+        {{- $prevChapter = $chapter -}}
+      {{- end -}}
+      <li class="poem-journal-item">
+        <a href="{{ .RelPermalink }}">
+          <span class="poem-journal-num">{{ partial "roman.html" .Weight }}</span>
+          <span class="poem-journal-name">{{ .Title }}</span>
+          <span class="poem-journal-leader"></span>
+          {{- if not .Date.IsZero }}<span class="poem-journal-date">{{ .Date.Format "02·01·2006" }}</span>{{ end -}}
+        </a>
+      </li>
+    {{- end -}}
+  </ol>
+  {{- end -}}
+</div>

@@ -1,0 +1,12 @@
+{{- /* Cuerpo de un poema sobre hoja de papel sepia. Contexto: la página del poema */ -}}
+<article class="poem-paper">
+  {{- with .Weight }}<div class="poem-paper-num">{{ partial "roman.html" . }}</div>{{ end -}}
+  <h1 class="poem-paper-title">{{ .Title }}</h1>
+  {{- if not .Date.IsZero }}<div class="poem-paper-date">{{ .Date.Format "02·01·2006" }}</div>{{ end -}}
+  <div class="poem-paper-body">
+    {{ .Content }}
+  </div>
+  {{- if not (.Param "disableLicense") -}}
+    {{ partial "license-block.html" . }}
+  {{- end -}}
+</article>

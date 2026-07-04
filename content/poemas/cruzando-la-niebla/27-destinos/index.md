@@ -2,9 +2,11 @@
 title: "Destinos"
 date: 2026-04-20
 draft: false
-weight: 26
+weight: 27
 chapter: "cruzando la niebla"
 book: "cruzando-la-niebla"
+aliases:
+  - "/poemas/cruzando-la-niebla/26-destinos/"
 params:
   license: "copyright"
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."

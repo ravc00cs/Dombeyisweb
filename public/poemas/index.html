@@ -67,93 +67,126 @@
   <meta name="twitter:description" content="Es exponerte al sol, es sentir la oscuridad. Es quedarte mirando la nada, una hormiga, la arena. Es contemplar algo que no tiene nombre y tratar de explicarlo">
 
 	
-  </head><body class="ma0 georgia bg-near-black development is-section is-section">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Special+Elite&display=swap">
+
+
+<script>
+(function () {
+  function apply(t) { document.documentElement.setAttribute('data-theme', t); }
+  try {
+    var saved = localStorage.getItem('theme');
+    apply(saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
+  } catch (e) { apply('light'); }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest && e.target.closest('.theme-toggle');
+    if (!btn) return;
+    e.preventDefault();
+    var next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    apply(next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+})();
+</script>
+
+  </head><body class="ma0 georgia bg-near-black section-poemas development is-section is-section">
     
+    <input type="checkbox" id="nau-min" class="nau-toggle">
+    <input type="checkbox" id="nau-max" class="nau-toggle">
+    <header class="gnome-panel">
+  <a class="gnome-panel-brand" href="/">Nothofagus Dombeyis</a><nav class="gnome-panel-menu" role="navigation"><a class="gnome-panel-link" href="/sobrepensar/">SobrePensar</a><a class="gnome-panel-link" href="/poemas/">Poemas</a><a class="gnome-panel-link" href="/sobre-mi/">Sobre mi</a></nav><button type="button" class="theme-toggle" aria-label="Cambiar modo claro/oscuro" title="Modo claro/oscuro">
+    <span class="theme-toggle-sun" aria-hidden="true">&#9728;</span>
+    <span class="theme-toggle-moon" aria-hidden="true">&#9789;</span>
+  </button>
+  <span class="gnome-panel-clock" aria-hidden="true">Sat 4 Jul, 14:35</span>
+</header>
 
-  
-  
-  <header class="cover bg-top" style="background-image: url('http://localhost:1313/images/poems-background.jpg');">
-    
-    <div class="bg-black-30">
-      <nav class="pv3 ph3 ph4-ns" role="navigation">
-  <div class="flex-l center items-center justify-between">
-    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
-        Nothofagus Dombeyis
-      
-    </a>
-    <div class="flex-l items-center">
-      
-
-      
-        <ul class="pl0 mr3">
+    <main class="nau-main" role="main">
+      <div class="nau-window">
+        <div class="nau-titlebar">
+          <span class="nau-titlebar-icon" aria-hidden="true"></span>
+          <span class="nau-titlebar-text">Poemas</span>
+          <span class="nau-titlebar-buttons">
+            <label class="nau-wbtn nau-wbtn--min" for="nau-min" title="Minimizar" aria-label="Minimizar">&#8211;</label>
+            <label class="nau-wbtn nau-wbtn--max" for="nau-max" title="Maximizar" aria-label="Maximizar">&#9633;</label>
+            <a class="nau-wbtn nau-wbtn--close" href="/" title="Cerrar" aria-label="Cerrar">&#10005;</a>
+          </span>
+        </div>
+        <div class="nau-toolbar">
+          <span class="nau-btn nau-btn--disabled"><span class="nau-btn-ico nau-ico-back">&#8592;</span> Atrás</span>
+          <a class="nau-btn" href="/sobrepensar/" title="Siguiente"><span class="nau-btn-ico nau-ico-fwd">&#8594;</span> Adelante</a>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/sobrepensar/" title="SobrePensar pagina">
-              SobrePensar
-            </a>
-          </li>
+          <a class="nau-btn" href="/" title="Subir un nivel"><span class="nau-btn-ico nau-ico-up">&#8593;</span> Subir</a>
           
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/poemas/" title="Poemas pagina">
-              Poemas
-            </a>
-          </li>
-          
-          <li class="list f5 f4-ns fw4 dib pr3">
-            <a class="hover-white white-90 no-underline" href="/sobre-mi/" title="Sobre mi pagina">
-              Sobre mi
-            </a>
-          </li>
-          
-        </ul>
-      
-      <div class="ananke-socials"></div>
-
-    </div>
-  </div>
+          <span class="nau-toolbar-sep" aria-hidden="true"></span>
+          <a class="nau-btn" href="/poemas/" title="Recargar"><span class="nau-btn-ico">&#8635;</span> Recargar</a>
+          <a class="nau-btn" href="/" title="Inicio"><span class="nau-btn-ico">&#9750;</span> Inicio</a>
+        </div>
+        <div class="nau-location">
+          <label class="nau-location-label" for="nau-loc-input">Ubicación:</label>
+          <input id="nau-loc-input" class="nau-location-input" type="text" readonly value="/home/dombeyis/poemas" tabindex="-1">
+        </div>
+        <div class="nau-body">
+          <nav class="nau-sidebar" aria-label="Lugares">
+  <div class="nau-sidebar-heading">Lugares</div>
+  <ul class="nau-places">
+    <li>
+      <a class="nau-place " href="/">Inicio</a>
+    </li><li>
+        <a class="nau-place " href="/sobrepensar/">SobrePensar</a></li><li>
+        <a class="nau-place nau-place--active" href="/poemas/">Poemas</a><ul class="nau-places nau-places--nested"><li>
+                <a class="nau-place " href="/poemas/cruzando-la-niebla/">Cruzando la Niebla</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/cenote/">Cenote</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/analogica/">Analógica</a>
+              </li><li>
+                <a class="nau-place " href="/poemas/reflejos/">Reflejos</a>
+              </li></ul></li><li>
+        <a class="nau-place " href="/sobre-mi/">Sobre mi</a></li></ul>
 </nav>
 
-      <div class="tc-l pv4 pv6-l ph3 ph4-ns">
-        <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Poemas
-        </h1>
-        
+          <div class="nau-content">
+            
+    <div class="poem-iconview"><a class="poem-folder" href="/poemas/cruzando-la-niebla/">
+        <span class="poem-folder-icon" aria-hidden="true">
+          <span class="poem-folder-tab"></span>
+          <span class="poem-folder-body folder-niebla"></span>
+        </span>
+        <span class="poem-folder-title">Cruzando la Niebla</span>
+        <span class="poem-folder-count">29 poemas</span>
+      </a><div class="poem-folder poem-folder--soon" aria-disabled="true">
+        <span class="poem-folder-icon" aria-hidden="true">
+          <span class="poem-folder-tab"></span>
+          <span class="poem-folder-body folder-cenote"></span>
+        </span>
+        <span class="poem-folder-title">Cenote</span>
+        <span class="poem-folder-count">próximamente</span>
+      </div><div class="poem-folder poem-folder--soon" aria-disabled="true">
+        <span class="poem-folder-icon" aria-hidden="true">
+          <span class="poem-folder-tab"></span>
+          <span class="poem-folder-body folder-analogica"></span>
+        </span>
+        <span class="poem-folder-title">Analógica</span>
+        <span class="poem-folder-count">próximamente</span>
+      </div><div class="poem-folder poem-folder--soon" aria-disabled="true">
+        <span class="poem-folder-icon" aria-hidden="true">
+          <span class="poem-folder-tab"></span>
+          <span class="poem-folder-body folder-reflejos"></span>
+        </span>
+        <span class="poem-folder-title">Reflejos</span>
+        <span class="poem-folder-count">próximamente</span>
+      </div></div>
+
+          </div>
+        </div>
+        <div class="nau-statusbar">
+          <span class="nau-status-left">4 elementos</span>
+          <span class="nau-status-right">2026</span>
+          <span class="nau-resize" aria-hidden="true"></span>
+        </div>
       </div>
-    </div>
-  </header>
-
-
-    <main class="pb7" role="main">
-      
-  <article class="pa3 pa4-ns nested-copy-line-height">
-    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy near-white"><p>Es exponerte al sol, es sentir la oscuridad.
-Es quedarte mirando la nada, una hormiga, la arena.
-Es contemplar algo que no tiene nombre y tratar de explicarlo</p>
-</section>
-    
-      <section class="poem-grid ph3 ph4-l mt4">
-        
-          
-
-  
-
-
-<article class="poem-card bg-forest-card br2 overflow-hidden" style="background-image: url('/poemas/cruzando-la-niebla/P1050283.JPG'); background-size: cover; background-position: center;">
-  <div class="poem-card-inner pa4 flex flex-column h-100">
-    <h2 class="f4 fw4 near-white mt0 mb0 lh-title flex-auto">
-      <a href="/poemas/cruzando-la-niebla/" class="link dim" style="color:#d4e8dc">Cruzando la Niebla</a>
-    </h2><p class="f6 poem-chapter mt2 mb0">Volumen 1 — SOBREPENSAR</p><div class="mt3">
-      <a href="/poemas/cruzando-la-niebla/" class="ba poem-read-link f7 br2 pv1 ph2 dib">Leer</a>
-    </div>
-  </div>
-</article>
-
-        
-      </section>
-    
-  </article>
-
     </main>
     <footer class="bg-forest-dark bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
@@ -165,5 +198,47 @@ Es contemplar algo que no tiene nombre y tratar de explicarlo</p>
   </div>
 </footer>
 
+
+    
+    <div class="nau-overview">
+  <label class="nau-overview-backdrop" for="nau-max" aria-label="Cerrar vista general"></label>
+  <div class="nau-overview-grid">
+
+    
+    <a class="nau-mini" href="/">
+      <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Inicio</span>
+      <span class="nau-mini-body folder-niebla"></span>
+    </a>
+
+    <a class="nau-mini" href="/sobrepensar/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>SobrePensar</span>
+        <span class="nau-mini-body folder-lluvia"></span>
+      </a>
+      <a class="nau-mini" href="/poemas/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Poemas</span>
+        <span class="nau-mini-body folder-hojas"></span>
+      </a>
+      <a class="nau-mini" href="/poemas/cruzando-la-niebla/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Cruzando la Niebla</span>
+            <span class="nau-mini-body folder-niebla"></span>
+          </a><a class="nau-mini" href="/poemas/cenote/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Cenote</span>
+            <span class="nau-mini-body folder-cenote"></span>
+          </a><a class="nau-mini" href="/poemas/analogica/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Analógica</span>
+            <span class="nau-mini-body folder-analogica"></span>
+          </a><a class="nau-mini" href="/poemas/reflejos/">
+            <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Reflejos</span>
+            <span class="nau-mini-body folder-reflejos"></span>
+          </a><a class="nau-mini" href="/sobre-mi/">
+        <span class="nau-mini-bar"><span class="nau-mini-dot"></span>Sobre mi</span>
+        <span class="nau-mini-body folder-lluvia"></span>
+      </a>
+      </div>
+</div>
+
+    <label class="nau-taskbar" for="nau-min" title="Restaurar ventana">
+      <span class="nau-taskbar-btn"><span class="nau-titlebar-icon" aria-hidden="true"></span>Poemas</span>
+    </label>
   </body>
 </html>

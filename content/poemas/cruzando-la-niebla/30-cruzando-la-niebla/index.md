@@ -2,9 +2,11 @@
 title: "Cruzando la niebla"
 date: 2026-04-20
 draft: false
-weight: 29
+weight: 30
 chapter: "cruzando la niebla"
 book: "cruzando-la-niebla"
+aliases:
+  - "/poemas/cruzando-la-niebla/29-cruzando-la-niebla/"
 params:
   license: "copyright"
   rights: "© 2026 Ricardo Vivanco C. Todos los derechos reservados."
