@@ -1,11 +1,157 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cenote on Nothofagus Dombeyis</title>
-    <link>http://localhost:1313/poemas/cenote/</link>
-    <description>Recent content in Cenote on Nothofagus Dombeyis</description>
-    <generator>Hugo</generator>
-    <language>es</language>
-    <atom:link href="http://localhost:1313/poemas/cenote/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+	<channel>
+		<title>Cenote on Nothofagus Dombeyis</title>
+		<link>http://localhost:1313/poemas/cenote/</link>
+		<description>Recent content in Cenote on Nothofagus Dombeyis</description>
+		<generator>Hugo</generator>
+		<language>es</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 27 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/poemas/cenote/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>A mí</title>
+				<link>http://localhost:1313/poemas/cenote/01-a-mi/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/01-a-mi/</guid>
+				<description>&lt;p&gt;Hoy te escribo para que quede registro, estas palabras son las que te dirán que estamos vivos, hemos tenido suerte, todo resultó, pero nada de lo que esperamos. Donde estamos ahora nada resultó mal, no estamos donde pensamos que estaríamos. Todo se hizo fácil, casi regalado. No estamos con la misma gente con la que partimos, algunos sí. No estamos en Pirque.&lt;/p&gt;&#xA;&lt;p&gt;Aún estamos de vacaciones en la vida, aún no nos pasa nada duro, aún estamos con las personas que queremos.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Cenote</title>
+				<link>http://localhost:1313/poemas/cenote/02-cenote/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/02-cenote/</guid>
+				<description>&lt;p&gt;Para mí el infinito es un pozo de agua lenta, no tan profundo,  una caverna, donde entra luz lo justo para que puedas ver el fondo de esa agua, eso es finito, pero el agua puede ondular de tantas formas como tiempo en el universo.&lt;/p&gt;&#xA;&lt;p&gt;Hay tierra en el fondo, están tus pisadas, todas ellas, y se dejan ver formas antiguas que probablemente habrás olvidado.&lt;/p&gt;&#xA;&lt;p&gt;No es una entrada estruendosa, se avanza por pasos, cada paso en esa agua se torna denso, cada paso libera el fondo, el fondo es como el café que dice cosas, huellas y siluetas que se forman con el fluir.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Máscaras</title>
+				<link>http://localhost:1313/poemas/cenote/03-mascaras/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/03-mascaras/</guid>
+				<description>&lt;p&gt;Intento calmarme para ver que el agua se asiente&lt;br&gt;&#xA;veo las piedras que hemos tirado al fondo, para ver qué se levanta.&lt;br&gt;&#xA;Todo está quieto.&lt;br&gt;&#xA;Pienso en la pregunta que me haces para poder avanzar y resulta que me acuerdo de cosas que no tienen que ver&lt;br&gt;&#xA;pero sí tienen que ver.&lt;br&gt;&#xA;Pienso ese sedimento, que es mi pasado, que creo puedo llamarlo pasado, pero es algo que ya no soy.&lt;br&gt;&#xA;Pero sé que en lo profundo ese barro, es la arcilla que conforma todas mis pisadas.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Selva</title>
+				<link>http://localhost:1313/poemas/cenote/04-selva/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/04-selva/</guid>
+				<description>&lt;p&gt;Para dibujar hay que entrar, para saber hay que sumergirse, para saber qué dibujar tengo qué escudriñar y luego dejar asentar, para poder ver y poder avanzar.&lt;/p&gt;&#xA;&lt;p&gt;Quiero entender que dibujar, pero tengo que avanzar lento, avanzar esperando que el agua se asiente, para poder ver las corrientes, para poder sentir donde no está explorado y luego volver, volver a subir, anotar y salir al bosque, llegar a mi casa y volver a intentar.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>La silla</title>
+				<link>http://localhost:1313/poemas/cenote/05-la-silla/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/05-la-silla/</guid>
+				<description>&lt;p&gt;A veces me pregunto cómo fue tu día cuando me preguntas cómo fue el mío.&lt;br&gt;&#xA;Sé que para ti debe existir una distancia pues eres en alguna forma un cartógrafo que es capaz de ver el pasado y el presente.&lt;br&gt;&#xA;Pero me da curiosidad qué percibes de mí cuando dibujas los mapas de la caverna que habito y cuán necio me ves cuando intento responder tus preguntas, viendo la superficie del agua de lo que puedo ver, me pregunto qué es lo que veías tú en mí.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Valeria</title>
+				<link>http://localhost:1313/poemas/cenote/06-valeria/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/06-valeria/</guid>
+				<description>&lt;p&gt;De las formas que puedo entender el mundo, solo puedo entenderlas por mí.&lt;br&gt;&#xA;Recuerdo o intento recordar cuándo realmente comencé a pensar diferente de ti.&lt;br&gt;&#xA;Cuándo me di cuenta que no era mente, sino puentes.&lt;br&gt;&#xA;Te imagino dentro, como un molino de papel sujeto al viento, viento que no para y que no puedes controlar, pero te hace a ti.&lt;br&gt;&#xA;Un molino a merced del viento, sin control.&lt;br&gt;&#xA;Te veo sufrir, no en silencio sino en capas de separación, donde se expone ese viento tuyo que te hace a ti.&lt;br&gt;&#xA;Huracanes de un inconsciente que no podré conocer, conociéndote toda la vida y aún así sentirte cercana en nombre pero no en presencia.&lt;br&gt;&#xA;Aislada en tus huracanes, pisando la tierra viviendo tu día a día, entre vientos mareas y aún así sonreír&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Géminis</title>
+				<link>http://localhost:1313/poemas/cenote/07-geminis/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/07-geminis/</guid>
+				<description>&lt;p&gt;¿Quién es el que camina cuando estoy afuera? ¿Quién es el que habita este cuerpo cuando duerme inconsciente? ¿Quién es el que conversa cuando estoy con mis amigos o colegas? ¿Quién es el que habita esta mente cuando estoy con mi esposa? ¿Cuál de todos ellos soy yo?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Marco Aurelio</title>
+				<link>http://localhost:1313/poemas/cenote/08-marco-aurelio/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/08-marco-aurelio/</guid>
+				<description>&lt;p&gt;El nombre no tiene que ver, pero es interesante que leyendo cosas la mente recuerde otras.&lt;br&gt;&#xA;he recordado, chalecos, sensaciones, emociones y otras cosas que no diré.&lt;br&gt;&#xA;enterradas en la acumulación de barro que está en mis pies,&lt;br&gt;&#xA;tan enterradas que acordarse te tumba, te sienta, te detiene.&lt;br&gt;&#xA;aflora una sensación de no ser honesto o en realidad de sorpresa&lt;br&gt;&#xA;de saber que hay cosas por la que la gente brinda en silencio&lt;br&gt;&#xA;que prefiere olvidar y a veces confesar&lt;br&gt;&#xA;tan enterradas que ahora que salió existe una apertura que no quieres mirar&lt;br&gt;&#xA;un pozo donde puedes entrar&lt;br&gt;&#xA;dudando, pensando y mirando.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Limite</title>
+				<link>http://localhost:1313/poemas/cenote/09-limite/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/09-limite/</guid>
+				<description>&lt;p&gt;De lo que sé y no sé, no sé por qué tengo esta estructura por qué tengo estos pensamientos y por qué leo tantos libros tratando de armar algo que quizás no termine de armarse.&lt;/p&gt;&#xA;&lt;p&gt;Lo que sé es que conversamos de los límites del mapa y que casi nunca los dibujo yo.&lt;/p&gt;&#xA;&lt;p&gt;Temiendo romper el papel, el lápiz, de tirar la tinta a la pared&lt;br&gt;&#xA;y que esa mancha se quede ahí recordándome que eso lo hice yo,&lt;br&gt;&#xA;que eso es parte de lo que soy, que así veo las cosas con cariño nostalgia y dolor,&lt;br&gt;&#xA;que las imagino, las vivo y las contemplo, pero son mentiras, no son reales, son estallidos  de represas retenidas a la fuerza.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Barcos y mapas</title>
+				<link>http://localhost:1313/poemas/cenote/10-barcos-y-mapas/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/10-barcos-y-mapas/</guid>
+				<description>&lt;p&gt;Recuerdo que en varias oportunidades nos vimos reír.&lt;br&gt;&#xA;Recuerdo las conversaciones mientras mirábamos las paredes de cavernas con antiguas pinturas que dibujaron manos que ya no son las mías.&lt;br&gt;&#xA;Me decías de antropología, sociología y sicología que llevó esas manos a ser pintadas en la pared&lt;br&gt;&#xA;por qué el color, por qué a esa altura.&lt;br&gt;&#xA;Pero en mi mente estaba disfrutando en realidad el recorrer contigo esas cavernas que solo podíamos entrar con una antorcha y tus mapas.&lt;br&gt;&#xA;Como si fuéramos amigos de toda la vida estudiando una civilización antigua. Pero siempre me recordaste que esa civilización era yo&lt;br&gt;&#xA;y que en realidad solo dibujas mapas muy bien.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fantasmas 3</title>
+				<link>http://localhost:1313/poemas/cenote/11-fantasmas-3/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/11-fantasmas-3/</guid>
+				<description>&lt;p&gt;No creo en fantasmas, ya lo había dicho antes,&lt;br&gt;&#xA;pero sé que existen porque los hago existir.&lt;br&gt;&#xA;Estos textos vienen de la misma fuente donde mis demonios van a descansar.&lt;br&gt;&#xA;A veces pasean trayendo recuerdos que ya no son ni en forma ni color,&lt;br&gt;&#xA;pero lo son en intención.&lt;br&gt;&#xA;Fantasmas que sé que no existen pero viven arrendando en mi mente y sin pagar,&lt;br&gt;&#xA;los desgraciados son gatos que aman la atención,&lt;br&gt;&#xA;pero como gatos se van cuando no hay comida&lt;br&gt;&#xA;y van a otras casas.&lt;br&gt;&#xA;Esos fantasmas me hiciste ver en algunos de los mapas que dibujamos juntos&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Begonias</title>
+				<link>http://localhost:1313/poemas/cenote/12-begonias/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/12-begonias/</guid>
+				<description>&lt;p&gt;Hay pocas cosas que la multiplicación canse tanto,&lt;br&gt;&#xA;como hojas para sacar más plantas, cortas más hojas más plantas&lt;br&gt;&#xA;son bonitas, pero esos esquejes están en tu mente&lt;br&gt;&#xA;se propagan lo cubren todo, no dejan ver el suelo&lt;br&gt;&#xA;suben, se asientan y ahora son hiedras&lt;br&gt;&#xA;se enredan acaparan, caminan, corren y suben tapando el cielo&lt;br&gt;&#xA;ahora son aves, que vuelan chocan se mueven en silencio&lt;br&gt;&#xA;ahora es ruido.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Pequeño</title>
+				<link>http://localhost:1313/poemas/cenote/13-pequeno/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/13-pequeno/</guid>
+				<description>&lt;p&gt;Es la mínima perturbación que no sabía que cambiaría o una sensación sin consideración, o un pequeño cambio de plan ¿o siquiera había plan? no había plan, no había necesidad del plan, tampoco en mirar ese detalle, tampoco en que mi mente siguiese esa historia, que ahora no es real, que sigue su propio camino, que no existe pero impacta, que ahora se ramifica en otro tema que no tenía que ver pero si tenía que ver, que se expande, se transforma, no cae, se propaga, se alimenta me drena, tengo que alejarme, trato de ponerle atención de atender la sensación, de drenar la emoción, pero esta se filtra en cada célula consciente hasta que ocupa toda la trama de este texto, hasta la última coma, se llena, se colma, se sacia y se va.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Fango</title>
+				<link>http://localhost:1313/poemas/cenote/14-fango/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/14-fango/</guid>
+				<description>&lt;p&gt;La sensación de caer no es en espiral&lt;br&gt;&#xA;la vida no se desarma, los colores están ahí, las cosas siguen sujetas&lt;br&gt;&#xA;es una sensación extraña&lt;br&gt;&#xA;de la nada estás ahí&lt;br&gt;&#xA;los fantasmas escapan&lt;br&gt;&#xA;los demonios se silencian&lt;br&gt;&#xA;y todo lo que emitía bulla, ya no está&lt;br&gt;&#xA;hay cansancio, extrañeza y languidez&lt;br&gt;&#xA;te vuelves a parar pero no hay destino&lt;br&gt;&#xA;las cosas siguen teniendo colores&lt;br&gt;&#xA;pero sabes que puedes dejarte caer&lt;br&gt;&#xA;y sabes a veces que podrías dejarte caer&lt;br&gt;&#xA;caer en ese pozo&lt;br&gt;&#xA;sabes lo que se sentirá mirar desde abajo&lt;br&gt;&#xA;a qué olerá el aire detenido al fondo con ese barro&lt;br&gt;&#xA;porque ya lo hueles emanando de ti&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Concepto</title>
+				<link>http://localhost:1313/poemas/cenote/15-concepto/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/15-concepto/</guid>
+				<description>&lt;p&gt;De vez en cuando, miro arriba, de noche tratando de ver algo de la luz original y no de la nuestra, para volver a ver algo que no es miedo, más bien es una sensación que queda fuera de las palabras.&lt;/p&gt;&#xA;&lt;p&gt;La inmensidad no la describe pero la imagina, me suelto en ella para que me lleve, pero la sensación imaginada se siente real, una desesperación nacida no del miedo sino del cambio, del matiz, del saber.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Torres</title>
+				<link>http://localhost:1313/poemas/cenote/16-torres/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/16-torres/</guid>
+				<description>&lt;p&gt;Se que las cartas se desordenan, por algo se pueden barajar, como sabiduría práctica, siempre las puedo ordenar y jamás pensar en armar castillos con ellas, pero de todas formas puedo hacerlo y todo el castillo donde me sostengo haciendo estos castillos de cartas, lo armé sin querer, lo armamos sin querer, todos tenemos uno del cual hay cartas y cumbres que otros armaron por nosotros, donde en otros lados hay menos cartas apiladas y no queremos verlas. Aún así, juego con ellas como lo haría cualquiera, pensando en desarmar el castillo y comenzar de nuevo, pensando en fortificar algunos lados, barajando posibilidades que no son ciertas hasta que las ejecute, siendo honesto se siente cómodo y seguro tener todas las cartas en las manos, barajando.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Piedras</title>
+				<link>http://localhost:1313/poemas/cenote/17-piedras/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/17-piedras/</guid>
+				<description>&lt;p&gt;Si donde estoy no lo trabajé, solo me moví en el agua, no de pereza sino más bien saber usar la corriente ¿por qué debería salir a tierra y escarbar a mano un nuevo torrente? de tomar mis manos y escarbar como cuando lo hacía de pequeño, de sentir la tierra rompiendo mis dedos, de sentir el sudor caer por mi cara y nariz, sintiendo el sabor de la sal. De remover cada piedra y cada terrón fuera de donde debería estar ¿por qué tengo que romper la tierra de afuera si el jarrón que me contiene tampoco lo construí yo? ¿adónde irá el agua de este nuevo torrente? qué bosque nacerá de este nuevo río, qué zonas se inundarán matando animales, qué sendero tomaría este río del cual no tendré control y me llevará lejos de aquí.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Palillos</title>
+				<link>http://localhost:1313/poemas/cenote/18-palillos/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/18-palillos/</guid>
+				<description>&lt;p&gt;Desahogándome, nunca me he podido detener, porque cuando me detengo es cuando nacen más cosas, es donde realmente mi mente hila, es donde comienza a tejer lienzos donde miles de tramas que no cesan de entretejerse con patrones nuevos, detenerme es tejer ponchos que no puedo colgar, detenerme y descansar es tejer yardas de ideas que no tienen sostén, detenerme significa ponerme a hilar.&lt;br&gt;&#xA;Trato de descansar cansándome en una infinidad de cosas que me gustan, pero estas se alimentan de cuando descanso, y de vez en cuando, cuando el mundo finalmente se detiene, y cuando ya no se enhebran agujas, el silencio aparece y puedo ser testigo de las cosas.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Sepia</title>
+				<link>http://localhost:1313/poemas/cenote/19-sepia/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/19-sepia/</guid>
+				<description>&lt;p&gt;Cuando ya sabes cómo llegar al final, cuando sabes dónde hay que virar, uno se pregunta si se sigue caminando por llegar o por caminar, así me siento dibujando contigo los mapas que me enseñaste a dibujar.&lt;br&gt;&#xA;Cuando me di cuenta, supe que el cenote ya me era cómodo, sabiendo aún me podía ahogar sabía perfectamente cómo entrar dejarme caer y dejarme hundir lentamente, esa sensación de caída lenta que centra todo, de sentir en mis dedos el polvo levantado de mi cuerpo caer en el fondo, de poder pararme y ponerme de pie sintiendo en mis pies el fango, de ver como la tierra se levanta del fondo de agua y me rodea con formas nuevas, de impulsarme a la superficie, respirar y vernos allí, nuevamente, dibujando un mapa con jeroglíficos que ya podemos leer, a la luz que entra en la caverna, a los pies del cenote, secándome mirando y apreciando el silencio, es momento de escalar&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Botecito</title>
+				<link>http://localhost:1313/poemas/cenote/20-botecito/</link>
+				<pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/poemas/cenote/20-botecito/</guid>
+				<description>&lt;p&gt;A veces me detengo y paro, durmiendo o caminando, y siento como mis pies son arrastrados por algo similar al retroceso del agua en la orilla del mar, como cuando el mar vuelve.&lt;br&gt;&#xA;Es una isla donde uno queda varado en la sensación de que todo se mueve menos tú, solo en este instante.&lt;br&gt;&#xA;Pensando en cómo llegué aquí, aun sabiendo que puse atención a donde estaba. Solo pienso que la corriente será más fuerte entre más me adentre en la vida.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

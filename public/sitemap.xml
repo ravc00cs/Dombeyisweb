@@ -2,71 +2,132 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/poemas/cenote/01-a-mi/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/01-retrovisor/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/02-cenote/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/02-aliento/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/poemas/cenote/</loc>
+    <loc>http://localhost:1313/poemas/cenote/03-mascaras/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/03-amarillos/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/analogica/</loc>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/04-selva/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/04-cosas-que-se-mueven/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/reflejos/</loc>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/05-la-silla/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/05-peso/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/06-valeria/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/06-azul-marino/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/07-geminis/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/07-historia-de-terror/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/08-marco-aurelio/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/08-escaleras/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/09-limite/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/09-norte/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/10-barcos-y-mapas/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/10-colibri/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/11-fantasmas-3/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/11-la-casa/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/12-begonias/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/12-cruz-de-parque/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/13-pequeno/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/13-flores/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/14-fango/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/14-fantasmas-1/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/15-concepto/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/15-graderia/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/16-torres/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/16-motas-de-polvo/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/17-piedras/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/17-polillas/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/18-palillos/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/18-alamos/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cenote/19-sepia/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/19-humedal/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/poemas/cenote/20-botecito/</loc>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/20-fantasmas-2/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
@@ -86,6 +147,9 @@
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/25-antorcha/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/poemas/cruzando-la-niebla/26-eso-soy-yo/</loc>
+    <lastmod>2026-06-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/poemas/cruzando-la-niebla/27-destinos/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -99,15 +163,18 @@
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/poemas/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sobrepensar/lookback/</loc>
-    <lastmod>2026-03-07T12:44:50-03:00</lastmod>
+    <loc>http://localhost:1313/sobrepensar/cero/</loc>
+    <lastmod>2026-06-14T20:06:58-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sobrepensar/</loc>
+    <lastmod>2026-06-14T20:06:58-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/sobrepensar/lookback/</loc>
     <lastmod>2026-03-07T12:44:50-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/sobrepensar/reencuentro/</loc>

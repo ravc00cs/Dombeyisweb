@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/dombeyis/00-mywork/00-blog/nothofagus-site",
+	"sourceRoot": "/home/ricardo/Documentos/00-mywork/00-blog/nothofagus-site",
 	"sources": [
 		"ananke/css/main.css"
 	],
